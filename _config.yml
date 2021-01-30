@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Yun TaeYoung"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile.jpg"
   bio              : |
     Wake up with **determination**,<br>
     Go to bed with **satisfication**
