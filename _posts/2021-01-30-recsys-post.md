@@ -21,9 +21,9 @@ use_math : true
 \begin{equation*}
 A_{m,n} = 
 \begin{pmatrix}
-1 & 0 & \cdots & 0 \\
-0 & 0 & \cdots & 1 \\
-\vdots  & \vdots  & \ddots & \vdots  \\
+1 & 0 & \cdots & 0 \n
+0 & 0 & \cdots & 1 \n
+\vdots  & \vdots  & \ddots & \vdots  \n
 0 & 0 & \cdots & 0 
 \end{pmatrix}
 \end{equation*}
