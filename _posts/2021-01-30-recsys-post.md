@@ -16,7 +16,9 @@ use_math : true
  
  협업 필터링은 콘텐츠 사용 패턴이 비슷한 사람들이 동일한 아이템에 대해서 서로 비슷한 선호도를 가지고 있을 것이라는 아이디어로부터 출발하였습니다. 협업 필터링에서는 사용자들의 아이템에 대한 선호도 등의 데이터를 바탕으로 사용자들의 유사도를 계산하고, 이 유사도에 따라 사용자가 사용하지 않았던 아이템에 대한 선호도를 예측합니다.
 
- 협업 필터링에서 가장 흔히 사용되는 기술은 **행렬 분해(Matrix Factorization)** 방식입니다. 행렬 분해 방식에서는 사용자가 사용한 아이템에 대한 선호도를 <span style="color:darkgray">그림1</span>와 같이 행렬로 나타냅니다. 이 행렬을 랭크가 작은 두 개의 행렬로 나눈 다음, 이 두 개의 행렬의 곱이 원래 행렬과 비슷한 값을 가지도록 학습하는 방법입니다. 기존 행렬을 나누고 다시 복원하는 과정에서 사용자가 소비하지 않았던 아이템에 대한 선호도를 계산할 수 있습니다. 학습은 아래 식에 있는 비용 함수(Cost function)을 최소화하는 방향으로 진행되는데, 주로 ALS(Alternating Least Squares)나 SGD(Stochastic Gradient Descent)방법을 사용하여 파라미터를 학습시킵니다.
+ 협업 필터링에서 가장 흔히 사용되는 기술은 **행렬 분해(Matrix Factorization)** 방식입니다. 행렬 분해 방식에서는 사용자가 사용한 아이템에 대한 선호도를 <span style="color:darkgray">그림1</span> 와 같이 행렬로 나타냅니다. 이 행렬을 랭크가 작은 두 개의 행렬로 나눈 다음, 이 두 개의 행렬의 곱이 원래 행렬과 비슷한 값을 가지도록 학습하는 방법입니다. 기존 행렬을 나누고 다시 복원하는 과정에서 사용자가 소비하지 않았던 아이템에 대한 선호도를 계산할 수 있습니다. 학습은 아래 식에 있는 비용 함수(Cost function)을 최소화하는 방향으로 진행되는데, 주로 ALS(Alternating Least Squares)나 SGD(Stochastic Gradient Descent)방법을 사용하여 파라미터를 학습시킵니다.
+
+ ![Matrix Factorization](./assets/images/matrix.factorization.png)
 
 ### 콘텐츠 기반 필터링(Content-Based Filtering)
 
