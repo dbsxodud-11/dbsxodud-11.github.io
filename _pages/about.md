@@ -56,9 +56,9 @@ Minsu Kim\*, Juhwan Ko\*, **Taeyoung Yun\***, Dinghuai Zhang, Ling Pan, Woochang
 - *2021.12* Excellence Award on DACON NH Big Data Competition. 
 
 # 📖 Educations
-- *2024.03 - current*, Ph.D in Graduate School of AI, KAIST (Korea Advanced Institute of Science and Technology)
+- *2024.03 - current*, Ph.D in Industrial and Systems Engineering, KAIST (Korea Advanced Institute of Science and Technology)
 - *2022.09 - 2024.02*, M.S in Graduate School of AI, KAIST
-- *2018.03 - 2022.08*, B.S in Industrial and Systems Engineering & Computer ScienceS, KAIST
+- *2018.03 - 2022.08*, B.S in Industrial and Systems Engineering & Computer Science, KAIST
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
