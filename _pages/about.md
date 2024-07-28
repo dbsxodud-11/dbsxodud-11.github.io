@@ -19,7 +19,8 @@ redirect_from:
 
 I am a PhD student at <a href="http://silab.kaist.ac.kr/" style="color: #7289da; text-decoration: none;">System Intelligence</a> lab in KAIST. I am fortunate to be advised by Professor <a href="https://scholar.google.com/citations?user=sH2a0nkAAAAJ&hl=en" style="color: #7289da; text-decoration: none;">Jinkyoo Park</a>. Here is my <a href="https://dbsxodud-11.github.io/assets/cv.pdf" class="link-in-list" style="color: #7289da; text-decoration: none;"> cv</a>.
 
-My research interest lies in solving complex and high-dimensional black-box optimization problems through the lens of conditional generative modeling. I'm currently interested in Diffusion Models, Generative Flow Networks, and their applications to real-world tasks, e.g, biological sequence design, material discovery, and mechanical design. I'm also interested in various decision making problems such as bandits, Reinforcement Learning and Multi-Agent RL.
+My research interest lies in solving complex and high-dimensional black-box optimization problems through the lens of conditional generative modeling. I'm currently interested in Diffusion Models, Generative Flow Networks (GFlowNets), and their applications to real-world tasks, e.g, biological sequence design, material discovery, and mechanical design. 
+I'm also interested in various decision making problems such as bandits, Reinforcement Learning and Multi-Agent RL.
 
 
 # 🔥 News
@@ -58,7 +59,7 @@ Minsu Kim, **Taeyoung Yun**, Emmanuel Bengio, Dinghuai Zhang, Yoshua Bengio, Sun
 
 # 💻 Internships
 <!-- - *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
-- *2024.09 - current*, Internship at HKUST (Hong Kong University of Science and Technology), hosted by <a href="https://ling-pan.github.io/" style="color: #7289da; text-decoration: none;">Ling Pan</a>
+- *2024.09 - current*, Remote Internship at HKUST (Hong Kong University of Science and Technology), hosted by <a href="https://ling-pan.github.io/" style="color: #7289da; text-decoration: none;">Ling Pan</a>
 - *2021.03 - 2021.08*, Internship at Kakao Recommendation Team
 
 # 🎖 Honors and Awards
