@@ -38,7 +38,7 @@ I'm also interested in various decision making problems such as bandits, Reinfor
 <span style="color:purple">**Arxiv**</span> 2024
 
 - **An Offline Meta Black-box Optimization Framework for Adaptive Design of Urban Traffic Light Management Systems**\\
-[[paper]](https://doi.org/10.1145/3637528.3671606),  [[code]](https://github.com/dbsxodud-11/offline_meta_bbo)\\
+[[paper]](https://arxiv.org/abs/2408.07327),  [[code]](https://github.com/dbsxodud-11/offline_meta_bbo)\\
 **Taeyoung Yun\***,  Kanghoon Lee\*, Sujin Yun, Ilmyung Kim, Won-Woo Jung, Min-Cheol Kwon, Kyujin Choi, Yoohyeon Lee, and Jinkyoo Park (\*: Equal Contribution)\\
 <span style="color:purple">**KDD**</span> 2024
 
