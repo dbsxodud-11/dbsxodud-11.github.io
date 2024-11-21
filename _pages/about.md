@@ -25,7 +25,7 @@ Recently, I found out that many crucial problems in ML can be reduced as a poste
 
 
 # 🔥 News
-- 2024.09: &nbsp;🎉🎉 5 papers accepted (1 ICLR, 1 ICML, 1 KDD, 2 NIPS)
+- 2024.12: &nbsp;🎉🎉 5 papers accepted in 2024 (1 ICLR, 1 ICML, 1 KDD, 2 NIPS)
 - 2024.09: &nbsp;🎉🎉 I started remote internship at HKUST, Hosted by <a href="https://ling-pan.github.io/" style="color: #7289da; text-decoration: none;">Ling Pan</a>
 
 <!-- - *2024.05*: &nbsp;🎉🎉 One paper accepted to KDD 2024 -->
@@ -65,7 +65,7 @@ Jaewoo Lee\*, Sujin Yun\*, **Taeyoung Yun**, and Jinkyoo Park (\*: Equal Contrib
 - **Learning to Scale Logits for Temperature-conditional GFlowNets**\\
 [[paper]](https://arxiv.org/abs/2310.02823),  [[code]](https://github.com/dbsxodud-11/logit-gfn)\\
 Minsu Kim\*, Juhwan Ko\*, **Taeyoung Yun\***, Dinghuai Zhang, Ling Pan, Woochang Kim, Jinkyoo Park, and Yoshua Bengio (\*: Equal Contribution) \\
-<span style="color:purple">**ICML**</span> 2024
+<span style="color:purple">**ICML**</span> 2024 (based on NIPS Workshop)
 
 - **Local Search GFlowNets**\\
 [[paper]](https://arxiv.org/abs/2310.02710),  [[code]](https://github.com/dbsxodud-11/ls_gfn)\\
