@@ -25,6 +25,7 @@ Recently, I found out that many crucial problems in ML can be reduced as a poste
 
 
 # 🔥 News
+- 2025.01: &nbsp;🎉🎉 1 paper accepted in 2025 (1 ICLR)
 - 2024.12: &nbsp;🎉🎉 5 papers accepted in 2024 (1 ICLR, 1 ICML, 1 KDD, 2 NIPS)
 - 2024.09: &nbsp;🎉🎉 I started remote internship at HKUST, Hosted by <a href="https://ling-pan.github.io/" style="color: #7289da; text-decoration: none;">Ling Pan</a>
 
@@ -46,6 +47,11 @@ Recently, I found out that many crucial problems in ML can be reduced as a poste
 
 
 # 📝 Publications 
+
+- **Adaptive teachers for amortized samplers**\\
+[[paper]](https://arxiv.org/abs/2410.01432)\\
+Minsu Kim\*, Sanghyeok Choi\*, **Taeyoung Yun**, Emmanuel Bengio, Leo Feng, Jarrid Rector-Brooks, Sungsoo Ahn, Jinkyoo Park, Nikolay Malkin, and Yoshua Bengio \\
+<span style="color:purple">**ICLR**</span> 2025
 
 - **Guided Trajectory Generation with Diffusion Models for Offline Model-based Optimization**\\
 [[paper]](https://arxiv.org/abs/2407.01624),  [[code]](https://github.com/dbsxodud-11/GTG)\\
