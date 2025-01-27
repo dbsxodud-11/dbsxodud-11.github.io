@@ -26,7 +26,7 @@ Recently, I found out that many crucial problems in ML can be reduced as a poste
 
 # 🔥 News
 - 2025.01: &nbsp;🎉🎉 1 paper accepted in 2025 (1 ICLR)
-- 2024.12: &nbsp;🎉🎉 5 papers accepted in 2024 (1 ICLR, 1 ICML, 1 KDD, 2 NIPS)
+- 2024.12: &nbsp;🎉🎉 5 papers accepted in 2024 (1 ICLR, 1 ICML, 1 KDD, 2 NeurIPS)
 - 2024.09: &nbsp;🎉🎉 I started remote internship at HKUST, Hosted by <a href="https://ling-pan.github.io/" style="color: #7289da; text-decoration: none;">Ling Pan</a>
 
 <!-- - *2024.05*: &nbsp;🎉🎉 One paper accepted to KDD 2024 -->
@@ -56,12 +56,12 @@ Minsu Kim\*, Sanghyeok Choi\*, **Taeyoung Yun**, Emmanuel Bengio, Leo Feng, Jarr
 - **Guided Trajectory Generation with Diffusion Models for Offline Model-based Optimization**\\
 [[paper]](https://arxiv.org/abs/2407.01624),  [[code]](https://github.com/dbsxodud-11/GTG)\\
 **Taeyoung Yun**, Sujin Yun, Jaewoo Lee, and Jinkyoo Park \\
-<span style="color:purple">**NIPS**</span> 2024
+<span style="color:purple">**NeurIPS**</span> 2024
 
 - **GTA: Generative Trajetory Augmentation with Guidance for Offline Reinforcement Learning**\\
 [[paper]](https://arxiv.org/abs/2405.16907), [[code]](https://github.com/Jaewoopudding/GTA)\\
 Jaewoo Lee\*, Sujin Yun\*, **Taeyoung Yun**, and Jinkyoo Park (\*: Equal Contribution)\\
-<span style="color:purple">**NIPS**</span> 2024 (based on ICLR Workshop)
+<span style="color:purple">**NeurIPS**</span> 2024 (based on ICLR Workshop)
 
 - **An Offline Meta Black-box Optimization Framework for Adaptive Design of Urban Traffic Light Management Systems**\\
 [[paper]](https://arxiv.org/abs/2408.07327),  [[code]](https://github.com/dbsxodud-11/offline_meta_bbo)\\
