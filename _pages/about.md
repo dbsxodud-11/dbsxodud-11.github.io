@@ -47,7 +47,7 @@ Recently, I found out that many crucial problems in ML can be reduced as a poste
 
 
 # 📝 Publications 
-
+(\*: Equal Contribution)
 - **Adaptive teachers for amortized samplers**\\
 [[paper]](https://arxiv.org/abs/2410.01432)\\
 Minsu Kim\*, Sanghyeok Choi\*, **Taeyoung Yun**, Emmanuel Bengio, Leo Feng, Jarrid Rector-Brooks, Sungsoo Ahn, Jinkyoo Park, Nikolay Malkin, and Yoshua Bengio \\
@@ -60,17 +60,17 @@ Minsu Kim\*, Sanghyeok Choi\*, **Taeyoung Yun**, Emmanuel Bengio, Leo Feng, Jarr
 
 - **GTA: Generative Trajetory Augmentation with Guidance for Offline Reinforcement Learning**\\
 [[paper]](https://arxiv.org/abs/2405.16907), [[code]](https://github.com/Jaewoopudding/GTA)\\
-Jaewoo Lee\*, Sujin Yun\*, **Taeyoung Yun**, and Jinkyoo Park (\*: Equal Contribution)\\
+Jaewoo Lee\*, Sujin Yun\*, **Taeyoung Yun**, and Jinkyoo Park\\
 <span style="color:purple">**NeurIPS**</span> 2024 (based on ICLR Workshop)
 
 - **An Offline Meta Black-box Optimization Framework for Adaptive Design of Urban Traffic Light Management Systems**\\
 [[paper]](https://arxiv.org/abs/2408.07327),  [[code]](https://github.com/dbsxodud-11/offline_meta_bbo)\\
-**Taeyoung Yun\***,  Kanghoon Lee\*, Sujin Yun, Ilmyung Kim, Won-Woo Jung, Min-Cheol Kwon, Kyujin Choi, Yoohyeon Lee, and Jinkyoo Park (\*: Equal Contribution)\\
+**Taeyoung Yun\***,  Kanghoon Lee\*, Sujin Yun, Ilmyung Kim, Won-Woo Jung, Min-Cheol Kwon, Kyujin Choi, Yoohyeon Lee, and Jinkyoo Park\\
 <span style="color:purple">**KDD**</span> 2024
 
 - **Learning to Scale Logits for Temperature-conditional GFlowNets**\\
 [[paper]](https://arxiv.org/abs/2310.02823),  [[code]](https://github.com/dbsxodud-11/logit-gfn)\\
-Minsu Kim\*, Juhwan Ko\*, **Taeyoung Yun\***, Dinghuai Zhang, Ling Pan, Woochang Kim, Jinkyoo Park, and Yoshua Bengio (\*: Equal Contribution) \\
+Minsu Kim\*, Juhwan Ko\*, **Taeyoung Yun\***, Dinghuai Zhang, Ling Pan, Woochang Kim, Jinkyoo Park, and Yoshua Bengio \\
 <span style="color:purple">**ICML**</span> 2024 (based on NIPS Workshop)
 
 - **Local Search GFlowNets**\\
