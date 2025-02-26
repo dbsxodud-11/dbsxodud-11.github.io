@@ -48,8 +48,18 @@ Recently, I found out that many crucial problems in ML can be reduced as a poste
 
 # 📝 Publications 
 (\*: Equal Contribution)
-- **Adaptive teachers for amortized samplers**\\
-[[paper]](https://arxiv.org/abs/2410.01432)\\
+- **Posterior Inference with Diffusion Models for High-dimensional Black-box Optimization**\\
+[[paper]](https://arxiv.org/abs/2502.16824),  [[code]](https://github.com/umkiyoung/DiBO)\\
+**Taeyoung Yun\***, Kiyoung Om\*, Jaewoo Lee, Sujin Yun, and Jinkyoo Park \\
+<span style="color:purple">**Arxiv**</span> 2025
+
+- **Learning to Sample Effective and Diverse Prompts for Text-to-Image Generation**\\
+[[paper]](https://arxiv.org/abs/2502.11477),  [[code]](https://github.com/dbsxodud-11/PAG)\\
+**Taeyoung Yun**, Dinghuai Zhang, Jinkyoo Park, and Ling Pan \\
+<span style="color:purple">**Arxiv**</span> 2025
+
+- **Adaptive Teachers for Amortized Samplers**\\
+[[paper]](https://arxiv.org/abs/2410.01432),  [[code]](https://github.com/alstn12088/adaptive-teacher)\\
 Minsu Kim\*, Sanghyeok Choi\*, **Taeyoung Yun**, Emmanuel Bengio, Leo Feng, Jarrid Rector-Brooks, Sungsoo Ahn, Jinkyoo Park, Nikolay Malkin, and Yoshua Bengio \\
 <span style="color:purple">**ICLR**</span> 2025
 
