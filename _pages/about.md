@@ -25,7 +25,7 @@ Recently, I found out that many crucial problems in ML can be reduced as a poste
 
 
 # 🔥 News
-- 2025.01: &nbsp;🎉🎉 1 paper accepted in 2025 (1 ICLR)
+- 2025.01: &nbsp;🎉🎉 2 papers accepted in 2025 (1 ICLR, 1 CVPR)
 - 2024.12: &nbsp;🎉🎉 5 papers accepted in 2024 (1 ICLR, 1 ICML, 1 KDD, 2 NeurIPS)
 - 2024.09: &nbsp;🎉🎉 I started remote internship at HKUST, Hosted by <a href="https://ling-pan.github.io/" style="color: #7289da; text-decoration: none;">Ling Pan</a>
 
@@ -56,7 +56,7 @@ Recently, I found out that many crucial problems in ML can be reduced as a poste
 - **Learning to Sample Effective and Diverse Prompts for Text-to-Image Generation**\\
 [[paper]](https://arxiv.org/abs/2502.11477),  [[code]](https://github.com/dbsxodud-11/PAG)\\
 **Taeyoung Yun**, Dinghuai Zhang, Jinkyoo Park, and Ling Pan \\
-<span style="color:purple">**Arxiv**</span> 2025
+<span style="color:purple">**CVPR**</span> 2025
 
 - **Adaptive Teachers for Amortized Samplers**\\
 [[paper]](https://arxiv.org/abs/2410.01432),  [[code]](https://github.com/alstn12088/adaptive-teacher)\\
