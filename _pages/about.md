@@ -25,7 +25,7 @@ Recently, I found out that many crucial problems in ML can be reduced as a poste
 
 
 # 🔥 News
-- 2025.01: &nbsp;🎉🎉 2 papers accepted in 2025 (1 ICLR, 1 CVPR)
+- 2025.02: &nbsp;🎉🎉 2 papers accepted in 2025 (1 ICLR, 1 CVPR)
 - 2024.12: &nbsp;🎉🎉 5 papers accepted in 2024 (1 ICLR, 1 ICML, 1 KDD, 2 NeurIPS)
 - 2024.09: &nbsp;🎉🎉 I started remote internship at HKUST, Hosted by <a href="https://ling-pan.github.io/" style="color: #7289da; text-decoration: none;">Ling Pan</a>
 
