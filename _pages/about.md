@@ -25,7 +25,7 @@ Recently, I found out that many crucial problems in ML can be reduced as a poste
 
 
 # 🔥 News
-- 2025.02: &nbsp;🎉🎉 2 papers accepted in 2025 (1 ICLR, 1 CVPR)
+- 2025.02: &nbsp;🎉🎉 4 papers accepted in 2025 (1 ICLR, 1 CVPR, 2 ICML)
 - 2024.12: &nbsp;🎉🎉 5 papers accepted in 2024 (1 ICLR, 1 ICML, 1 KDD, 2 NeurIPS)
 - 2024.09: &nbsp;🎉🎉 I started remote internship at HKUST, Hosted by <a href="https://ling-pan.github.io/" style="color: #7289da; text-decoration: none;">Ling Pan</a>
 
@@ -51,7 +51,12 @@ Recently, I found out that many crucial problems in ML can be reduced as a poste
 - **Posterior Inference with Diffusion Models for High-dimensional Black-box Optimization**\\
 [[paper]](https://arxiv.org/abs/2502.16824),  [[code]](https://github.com/umkiyoung/DiBO)\\
 **Taeyoung Yun\***, Kiyoung Om\*, Jaewoo Lee, Sujin Yun, and Jinkyoo Park \\
-<span style="color:purple">**Arxiv**</span> 2025
+<span style="color:purple">**ICML**</span> 2025
+
+- **Improved Off-policy Reinforcement Learning in Biological Sequence Design**\\
+[[paper]](https://arxiv.org/abs/2410.04461),  [[code]](https://github.com/hyeonahkimm/delta_cs)\\
+Hyeonah Kim, Minsu Kim, **Taeyoung Yun**, Sanghyeok Choi, Emmanuel Bengio, Alex Hernández-García, and Jinkyoo Park \\
+<span style="color:purple">**ICML**</span> 2025 (based on NeurIPS Workshop)
 
 - **Learning to Sample Effective and Diverse Prompts for Text-to-Image Generation**\\
 [[paper]](https://arxiv.org/abs/2502.11477),  [[code]](https://github.com/dbsxodud-11/PAG)\\
