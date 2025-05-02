@@ -36,7 +36,7 @@ Recently, I found out that many crucial problems in ML can be reduced as a poste
 <!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📖 Educations
-- *2024.03 - current*, Ph.D in Industrial and Systems Engineering, KAIST (Korea Advanced Institute of Science and Technology)
+- *2024.05 - current*, Ph.D in Industrial and Systems Engineering, KAIST (Korea Advanced Institute of Science and Technology)
 - *2022.09 - 2024.02*, M.S in Graduate School of AI, KAIST
 - *2018.03 - 2022.08*, B.S in Industrial and Systems Engineering & Computer Science, KAIST
 
