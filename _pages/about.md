@@ -25,7 +25,7 @@ Recently, I found out that many crucial problems in ML can be reduced as a poste
 
 
 # 🔥 News
-- 2025.02: &nbsp;🎉🎉 4 papers accepted in 2025 (1 ICLR, 1 CVPR, 2 ICML)
+- 2025.05: &nbsp;🎉🎉 5 papers accepted in 2025 (1 ICLR, 1 CVPR, 2 ICML, 1 KDD)
 - 2024.12: &nbsp;🎉🎉 5 papers accepted in 2024 (1 ICLR, 1 ICML, 1 KDD, 2 NeurIPS)
 - 2024.09: &nbsp;🎉🎉 I started remote internship at HKUST, Hosted by <a href="https://ling-pan.github.io/" style="color: #7289da; text-decoration: none;">Ling Pan</a>
 
@@ -48,6 +48,11 @@ Recently, I found out that many crucial problems in ML can be reduced as a poste
 
 # 📝 Publications 
 (\*: Equal Contribution)
+- **Wind Farm Layout Optimization with Diffusion Models**\\
+[[paper]](),  [[code]]()\\
+Yujin Shin\*, **Taeyoung Yun\***, Sujin Yun, Sungpil Woo, Sunhwan Lim, and Jinkyoo Park \\
+<span style="color:purple">**KDD**</span> 2025
+
 - **Posterior Inference with Diffusion Models for High-dimensional Black-box Optimization**\\
 [[paper]](https://arxiv.org/abs/2502.16824),  [[code]](https://github.com/umkiyoung/DiBO)\\
 **Taeyoung Yun\***, Kiyoung Om\*, Jaewoo Lee, Sujin Yun, and Jinkyoo Park \\
