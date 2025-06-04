@@ -25,6 +25,7 @@ Recently, I found out that many crucial problems in ML can be reduced as a poste
 
 
 # 🔥 News
+- 2025.06: &nbsp;🎉🎉 I started internship at Mila, Hosted by <a href="https://yoshuabengio.org/" style="color: #7289da; text-decoration: none;">Yoshua Bengio</a>
 - 2025.05: &nbsp;🎉🎉 5 papers accepted in 2025 (1 ICLR, 1 CVPR, 2 ICML, 1 KDD)
 - 2024.12: &nbsp;🎉🎉 5 papers accepted in 2024 (1 ICLR, 1 ICML, 1 KDD, 2 NeurIPS)
 - 2024.09: &nbsp;🎉🎉 I started remote internship at HKUST, Hosted by <a href="https://ling-pan.github.io/" style="color: #7289da; text-decoration: none;">Ling Pan</a>
@@ -42,14 +43,15 @@ Recently, I found out that many crucial problems in ML can be reduced as a poste
 
 # 💻 Internships
 <!-- - *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
-- *2024.09 - current*, Remote Internship at HKUST (Hong Kong University of Science and Technology), hosted by <a href="https://ling-pan.github.io/" style="color: #7289da; text-decoration: none;">Ling Pan</a>
+- *2025.06 - current*, Internship at Mila, hosted by <a href="https://yoshuabengio.org/" style="color: #7289da; text-decoration: none;">Yoshua Bengio</a>
+- *2024.09 - 2025.03*, Remote Internship at HKUST (Hong Kong University of Science and Technology), hosted by <a href="https://ling-pan.github.io/" style="color: #7289da; text-decoration: none;">Ling Pan</a>
 - *2021.03 - 2021.08*, Internship at Kakao Recommendation Team
 
 
 # 📝 Publications 
 (\*: Equal Contribution)
 - **Wind Farm Layout Optimization with Diffusion Models**\\
-[[paper]](),  [[code]]()\\
+[[paper]](),  [[code]](https://github.com/dbsxodud-11/layopt)\\
 Yujin Shin\*, **Taeyoung Yun\***, Sujin Yun, Sungpil Woo, Sunhwan Lim, and Jinkyoo Park \\
 <span style="color:purple">**KDD**</span> 2025
 
