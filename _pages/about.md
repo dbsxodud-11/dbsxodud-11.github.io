@@ -19,9 +19,9 @@ redirect_from:
 
 I am a PhD student at <a href="http://silab.kaist.ac.kr/" style="color: #7289da; text-decoration: none;">System Intelligence</a> lab in KAIST. I am fortunate to be advised by Professor <a href="https://scholar.google.com/citations?user=sH2a0nkAAAAJ&hl=en" style="color: #7289da; text-decoration: none;">Jinkyoo Park</a>. Here is my <a href="https://dbsxodud-11.github.io/assets/cv.pdf" class="link-in-list" style="color: #7289da; text-decoration: none;"> cv</a>.
 
-My research interest lies in solving complex and high-dimensional black-box optimization problems through the lens of conditional generative modeling. I'm currently interested in Diffusion Models, Generative Flow Networks (GFlowNets), and their applications to real-world tasks, e.g, biological sequence design, material discovery, and mechanical design. I'm also interested in various decision making problems such as bandits, Reinforcement Learning and Multi-Agent RL.
+My research interest lies in controllable generative modeling with large models (e.g., LLMs, Diffusion/Flow-based models) via exploring their latent spaces. Especially, I'm interested in building an amortized sampler that can extract crucial latents for generating desired samples. To accomplish this, my research focuses on the amortizing inference of generative models with off-policy RL approaches.
 
-Recently, I found out that many crucial problems in ML can be reduced as a posterior inference problem. To this end, I'm currently interested in developing algorithms for amortizing intractable multi-modal posterior inference that can impact real-world applications.
+I'm also interested in various decision making problems such as Multi-turn/Multi-agent RL. I've also participated in several transportation-related projects based on high-dimensional black-box optimization methods.
 
 
 # 🔥 News
@@ -43,7 +43,7 @@ Recently, I found out that many crucial problems in ML can be reduced as a poste
 
 # 💻 Internships
 <!-- - *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
-- *2025.06 - current*, Internship at Mila, hosted by <a href="https://yoshuabengio.org/" style="color: #7289da; text-decoration: none;">Yoshua Bengio</a>
+- *2025.06 - 2025.08*, Internship at Mila, hosted by <a href="https://yoshuabengio.org/" style="color: #7289da; text-decoration: none;">Yoshua Bengio</a>
 - *2024.09 - 2025.03*, Remote Internship at HKUST (Hong Kong University of Science and Technology), hosted by <a href="https://ling-pan.github.io/" style="color: #7289da; text-decoration: none;">Ling Pan</a>
 - *2021.03 - 2021.08*, Internship at Kakao Recommendation Team
 
@@ -51,7 +51,7 @@ Recently, I found out that many crucial problems in ML can be reduced as a poste
 # 📝 Publications 
 (\*: Equal Contribution)
 - **Wind Farm Layout Optimization with Diffusion Models**\\
-[[paper]](),  [[code]](https://github.com/dbsxodud-11/layopt)\\
+[[paper]](https://dl.acm.org/doi/10.1145/3711896.3737181),  [[code]](https://github.com/dbsxodud-11/layopt)\\
 Yujin Shin\*, **Taeyoung Yun\***, Sujin Yun, Sungpil Woo, Sunhwan Lim, and Jinkyoo Park \\
 <span style="color:purple">**KDD**</span> 2025
 
@@ -66,7 +66,7 @@ Hyeonah Kim, Minsu Kim, **Taeyoung Yun**, Sanghyeok Choi, Emmanuel Bengio, Alex 
 <span style="color:purple">**ICML**</span> 2025 (based on NeurIPS Workshop)
 
 - **Learning to Sample Effective and Diverse Prompts for Text-to-Image Generation**\\
-[[paper]](https://arxiv.org/abs/2502.11477),  [[code]](https://github.com/dbsxodud-11/PAG)\\
+[[paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Yun_Learning_to_Sample_Effective_and_Diverse_Prompts_for_Text-to-Image_Generation_CVPR_2025_paper.html),  [[code]](https://github.com/dbsxodud-11/PAG)\\
 **Taeyoung Yun**, Dinghuai Zhang, Jinkyoo Park, and Ling Pan \\
 <span style="color:purple">**CVPR**</span> 2025
 
