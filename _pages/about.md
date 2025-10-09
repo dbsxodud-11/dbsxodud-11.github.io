@@ -50,6 +50,16 @@ I'm also interested in various decision making problems such as Multi-turn/Multi
 
 # 📝 Publications 
 (\*: Equal Contribution)
+- **Active Attacks: Red-teaming LLMs via Adaptive Environments**\\
+[[paper]](https://www.arxiv.org/abs/2509.21947),  [[code]](https://github.com/dbsxodud-11/active_attacks)\\
+**Taeyoung Yun**, Pierre-Luc St-Charles, Jinkyoo Park, Yoshua Bengio, and Minsu Kim \\
+<span style="color:purple">**Arxiv**</span> 2025
+
+- **Posterior Inference in Latent Space for Scalable Constrained Black-box Optimization**\\
+[[paper]](https://arxiv.org/abs/2507.00480),  [[code]](https://github.com/umkiyoung/CiBO)\\
+Kiyoung Om\*, Kyuil Sim\*, **Taeyoung Yun\***, Hyeongyu Kang, and Jinkyoo Park \\
+<span style="color:purple">**Arxiv**</span> 2025
+
 - **Wind Farm Layout Optimization with Diffusion Models**\\
 [[paper]](https://dl.acm.org/doi/10.1145/3711896.3737181),  [[code]](https://github.com/dbsxodud-11/layopt)\\
 Yujin Shin\*, **Taeyoung Yun\***, Sujin Yun, Sungpil Woo, Sunhwan Lim, and Jinkyoo Park \\
