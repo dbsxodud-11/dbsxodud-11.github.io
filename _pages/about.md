@@ -111,6 +111,7 @@ Minsu Kim, **Taeyoung Yun**, Emmanuel Bengio, Dinghuai Zhang, Yoshua Bengio, Sun
 <span style="color:purple">**ICLR (Spotlight)**</span> 2024
 
 # 🎖 Honors and Awards
+- *2025.10* Top Reviewer in NeurIPS 2025
 - *2021.12* Excellence Award on DACON NH Big Data Competition. 
 - *2021.09* Dean's List (Honor for Top 2% Students). 
 
