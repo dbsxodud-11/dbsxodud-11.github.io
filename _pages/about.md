@@ -25,6 +25,7 @@ I'm also interested in various decision making problems such as Multi-turn/Multi
 
 
 # 🔥 News
+- 2025.10: &nbsp;🎉🎉 1 paper accepted in 2026 (1 WSDM) 
 - 2025.06: &nbsp;🎉🎉 I started internship at Mila, Hosted by <a href="https://yoshuabengio.org/" style="color: #7289da; text-decoration: none;">Yoshua Bengio</a>
 - 2025.05: &nbsp;🎉🎉 5 papers accepted in 2025 (1 ICLR, 1 CVPR, 2 ICML, 1 KDD)
 - 2024.12: &nbsp;🎉🎉 5 papers accepted in 2024 (1 ICLR, 1 ICML, 1 KDD, 2 NeurIPS)
@@ -49,66 +50,82 @@ I'm also interested in various decision making problems such as Multi-turn/Multi
 
 
 # 📝 Publications 
-(\*: Equal Contribution)
-- **Active Attacks: Red-teaming LLMs via Adaptive Environments**\\
-[[paper]](https://www.arxiv.org/abs/2509.21947),  [[code]](https://github.com/dbsxodud-11/active_attacks)\\
-**Taeyoung Yun**, Pierre-Luc St-Charles, Jinkyoo Park, Yoshua Bengio, and Minsu Kim \\
-<span style="color:purple">**Arxiv**</span> 2025
+([C]: Conferences, [P]: Preprint, \*: Equal Contribution) 
 
-- **Posterior Inference in Latent Space for Scalable Constrained Black-box Optimization**\\
-[[paper]](https://arxiv.org/abs/2507.00480),  [[code]](https://github.com/umkiyoung/CiBO)\\
-Kiyoung Om\*, Kyuil Sim\*, **Taeyoung Yun\***, Hyeongyu Kang, and Jinkyoo Park \\
-<span style="color:purple">**Arxiv**</span> 2025
+- **[C11] Urban Traffic Network Layout Optimization with Guided Discrete Diffusion Models** \\
+[[paper]]() / [[code]]()  
+**Taeyoung Yun**, Inhyuck Song, Woocheol Shin, Yujin Shin, Sungpil Woo, Sunhwan Lim, and Jinkyoo Park  
+<span style="color:purple">**WSDM 2026**</span>
 
-- **Wind Farm Layout Optimization with Diffusion Models**\\
-[[paper]](https://dl.acm.org/doi/10.1145/3711896.3737181),  [[code]](https://github.com/dbsxodud-11/layopt)\\
-Yujin Shin\*, **Taeyoung Yun\***, Sujin Yun, Sungpil Woo, Sunhwan Lim, and Jinkyoo Park \\
-<span style="color:purple">**KDD**</span> 2025
+- **[P3] Improving Sampling Distribution of Off-policy Training in Generative Flow Networks**  
+[[paper]]() / [[code]]()  
+**Taeyoung Yun**, Sujin Yun, Jinkyoo Park, and Ling Pan  
+<span style="color:purple">**Arxiv 2025**</span> 
 
-- **Posterior Inference with Diffusion Models for High-dimensional Black-box Optimization**\\
-[[paper]](https://arxiv.org/abs/2502.16824),  [[code]](https://github.com/umkiyoung/DiBO)\\
-**Taeyoung Yun\***, Kiyoung Om\*, Jaewoo Lee, Sujin Yun, and Jinkyoo Park \\
-<span style="color:purple">**ICML**</span> 2025
+- **[P2] Active Attacks: Red-teaming LLMs via Adaptive Environments**  
+[[paper]](https://www.arxiv.org/abs/2509.21947) / [[code]](https://github.com/dbsxodud-11/active_attacks)  
+**Taeyoung Yun**, Pierre-Luc St-Charles, Jinkyoo Park, Yoshua Bengio, and Minsu Kim  
+<span style="color:purple">**Arxiv 2025**</span>
 
-- **Improved Off-policy Reinforcement Learning in Biological Sequence Design**\\
-[[paper]](https://arxiv.org/abs/2410.04461),  [[code]](https://github.com/hyeonahkimm/delta_cs)\\
-Hyeonah Kim, Minsu Kim, **Taeyoung Yun**, Sanghyeok Choi, Emmanuel Bengio, Alex Hernández-García, and Jinkyoo Park \\
-<span style="color:purple">**ICML**</span> 2025 (based on NeurIPS Workshop)
+- **[P1] Posterior Inference in Latent Space for Scalable Constrained Black-box Optimization**  
+[[paper]](https://arxiv.org/abs/2507.00480) / [[code]](https://github.com/umkiyoung/CiBO)  
+Kiyoung Om\*, Kyuil Sim\*, **Taeyoung Yun\***, Hyeongyu Kang, and Jinkyoo Park  
+<span style="color:purple">**Arxiv 2025**</span>  
+<span style="color:purple">**NeurIPS 2025 SPIGM Workshop (Oral)**</span>
 
-- **Learning to Sample Effective and Diverse Prompts for Text-to-Image Generation**\\
-[[paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Yun_Learning_to_Sample_Effective_and_Diverse_Prompts_for_Text-to-Image_Generation_CVPR_2025_paper.html),  [[code]](https://github.com/dbsxodud-11/PAG)\\
-**Taeyoung Yun**, Dinghuai Zhang, Jinkyoo Park, and Ling Pan \\
-<span style="color:purple">**CVPR**</span> 2025
+- **[C10] Wind Farm Layout Optimization with Diffusion Models**  
+[[paper]](https://dl.acm.org/doi/10.1145/3711896.3737181) / [[code]](https://github.com/dbsxodud-11/layopt)  
+Yujin Shin\*, **Taeyoung Yun\***, Sujin Yun, Sungpil Woo, Sunhwan Lim, and Jinkyoo Park  
+<span style="color:purple">**KDD 2025**</span>
 
-- **Adaptive Teachers for Amortized Samplers**\\
-[[paper]](https://arxiv.org/abs/2410.01432),  [[code]](https://github.com/alstn12088/adaptive-teacher)\\
-Minsu Kim\*, Sanghyeok Choi\*, **Taeyoung Yun**, Emmanuel Bengio, Leo Feng, Jarrid Rector-Brooks, Sungsoo Ahn, Jinkyoo Park, Nikolay Malkin, and Yoshua Bengio \\
-<span style="color:purple">**ICLR**</span> 2025
+- **[C9] Posterior Inference with Diffusion Models for High-dimensional Black-box Optimization**  
+[[paper]](https://arxiv.org/abs/2502.16824) / [[code]](https://github.com/umkiyoung/DiBO)  
+**Taeyoung Yun\***, Kiyoung Om\*, Jaewoo Lee, Sujin Yun, and Jinkyoo Park  
+<span style="color:purple">**ICML 2025**</span> \\
+<span style="color:purple">**ICLR 2025 FPI Workshop**</span>
 
-- **Guided Trajectory Generation with Diffusion Models for Offline Model-based Optimization**\\
-[[paper]](https://arxiv.org/abs/2407.01624),  [[code]](https://github.com/dbsxodud-11/GTG)\\
-**Taeyoung Yun**, Sujin Yun, Jaewoo Lee, and Jinkyoo Park \\
-<span style="color:purple">**NeurIPS**</span> 2024
+- **[C8] Improved Off-policy Reinforcement Learning in Biological Sequence Design**  
+[[paper]](https://arxiv.org/abs/2410.04461) / [[code]](https://github.com/hyeonahkimm/delta_cs)  
+Hyeonah Kim, Minsu Kim, **Taeyoung Yun**, Sanghyeok Choi, Emmanuel Bengio, Alex Hernández-García, and Jinkyoo Park  
+<span style="color:purple">**ICML 2025**</span>  
+<span style="color:purple">**NeurIPS 2024 AIDrugX Workshop**</span>
 
-- **GTA: Generative Trajetory Augmentation with Guidance for Offline Reinforcement Learning**\\
-[[paper]](https://arxiv.org/abs/2405.16907), [[code]](https://github.com/Jaewoopudding/GTA)\\
-Jaewoo Lee\*, Sujin Yun\*, **Taeyoung Yun**, and Jinkyoo Park\\
-<span style="color:purple">**NeurIPS**</span> 2024 (based on ICLR Workshop)
+- **[C7] Learning to Sample Effective and Diverse Prompts for Text-to-Image Generation**  
+[[paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Yun_Learning_to_Sample_Effective_and_Diverse_Prompts_for_Text-to-Image_Generation_CVPR_2025_paper.html) / [[code]](https://github.com/dbsxodud-11/PAG)  
+**Taeyoung Yun**, Dinghuai Zhang, Jinkyoo Park, and Ling Pan  
+<span style="color:purple">**CVPR 2025**</span>
 
-- **An Offline Meta Black-box Optimization Framework for Adaptive Design of Urban Traffic Light Management Systems**\\
-[[paper]](https://arxiv.org/abs/2408.07327),  [[code]](https://github.com/dbsxodud-11/offline_meta_bbo)\\
-**Taeyoung Yun\***,  Kanghoon Lee\*, Sujin Yun, Ilmyung Kim, Won-Woo Jung, Min-Cheol Kwon, Kyujin Choi, Yoohyeon Lee, and Jinkyoo Park\\
-<span style="color:purple">**KDD**</span> 2024
+- **[C6] Adaptive Teachers for Amortized Samplers**  
+[[paper]](https://arxiv.org/abs/2410.01432) / [[code]](https://github.com/alstn12088/adaptive-teacher)  
+Minsu Kim\*, Sanghyeok Choi\*, **Taeyoung Yun**, Emmanuel Bengio, Leo Feng, Jarrid Rector-Brooks, Sungsoo Ahn, Jinkyoo Park, Nikolay Malkin, and Yoshua Bengio  
+<span style="color:purple">**ICLR 2025**</span>
 
-- **Learning to Scale Logits for Temperature-conditional GFlowNets**\\
-[[paper]](https://arxiv.org/abs/2310.02823),  [[code]](https://github.com/dbsxodud-11/logit-gfn)\\
-Minsu Kim\*, Juhwan Ko\*, **Taeyoung Yun\***, Dinghuai Zhang, Ling Pan, Woochang Kim, Jinkyoo Park, and Yoshua Bengio \\
-<span style="color:purple">**ICML**</span> 2024 (based on NIPS Workshop)
+- **[C5] Guided Trajectory Generation with Diffusion Models for Offline Model-based Optimization**  
+[[paper]](https://arxiv.org/abs/2407.01624) / [[code]](https://github.com/dbsxodud-11/GTG)  
+**Taeyoung Yun**, Sujin Yun, Jaewoo Lee, and Jinkyoo Park  
+<span style="color:purple">**NeurIPS 2024**</span>
 
-- **Local Search GFlowNets**\\
-[[paper]](https://arxiv.org/abs/2310.02710),  [[code]](https://github.com/dbsxodud-11/ls_gfn)\\
-Minsu Kim, **Taeyoung Yun**, Emmanuel Bengio, Dinghuai Zhang, Yoshua Bengio, Sungsoo Ahn, and Jinkyoo Park \\
-<span style="color:purple">**ICLR (Spotlight)**</span> 2024
+- **[C4] GTA: Generative Trajectory Augmentation with Guidance for Offline Reinforcement Learning**  
+[[paper]](https://arxiv.org/abs/2405.16907) / [[code]](https://github.com/Jaewoopudding/GTA)  
+Jaewoo Lee\*, Sujin Yun\*, **Taeyoung Yun**, and Jinkyoo Park  
+<span style="color:purple">**NeurIPS 2024**</span> \\
+<span style="color:purple">**ICLR 2024 GenAI4DM Workshop**</span>
+
+- **[C3] An Offline Meta Black-box Optimization Framework for Adaptive Design of Urban Traffic Light Management Systems**  
+[[paper]](https://arxiv.org/abs/2408.07327) / [[code]](https://github.com/dbsxodud-11/offline_meta_bbo)  
+**Taeyoung Yun\***, Kanghoon Lee\*, Sujin Yun, Ilmyung Kim, Won-Woo Jung, Min-Cheol Kwon, Kyujin Choi, Yoohyeon Lee, and Jinkyoo Park  
+<span style="color:purple">**KDD 2024**</span>
+
+- **[C2] Learning to Scale Logits for Temperature-conditional GFlowNets**  
+[[paper]](https://arxiv.org/abs/2310.02823) / [[code]](https://github.com/dbsxodud-11/logit-gfn)  
+Minsu Kim\*, Juhwan Ko\*, **Taeyoung Yun\***, Dinghuai Zhang, Ling Pan, Woochang Kim, Jinkyoo Park, and Yoshua Bengio  
+<span style="color:purple">**ICML 2024**</span> \\
+<span style="color:purple">**NeurIPS 2023 AI4Science Workshop**</span>
+
+- **[C1] Local Search GFlowNets**  
+[[paper]](https://arxiv.org/abs/2310.02710) / [[code]](https://github.com/dbsxodud-11/ls_gfn)  
+Minsu Kim, **Taeyoung Yun**, Emmanuel Bengio, Dinghuai Zhang, Yoshua Bengio, Sungsoo Ahn, and Jinkyoo Park  
+<span style="color:purple">**ICLR 2024 (Spotlight)**</span>
 
 # 🎖 Honors and Awards
 - *2025.10* Top Reviewer in NeurIPS 2025
