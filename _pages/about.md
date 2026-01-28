@@ -25,7 +25,7 @@ I'm also interested in various decision making problems such as Multi-turn/Multi
 
 
 # 🔥 News
-- 2025.10: &nbsp;🎉🎉 1 paper accepted in 2026 (1 WSDM) 
+- 2026.01: &nbsp;🎉🎉 3 papers accepted in 2026 (1 WSDM, 1 TMLR, 1 ICLR) 
 - 2025.06: &nbsp;🎉🎉 I started internship at Mila, Hosted by <a href="https://yoshuabengio.org/" style="color: #7289da; text-decoration: none;">Yoshua Bengio</a>
 - 2025.05: &nbsp;🎉🎉 5 papers accepted in 2025 (1 ICLR, 1 CVPR, 2 ICML, 1 KDD)
 - 2024.12: &nbsp;🎉🎉 5 papers accepted in 2024 (1 ICLR, 1 ICML, 1 KDD, 2 NeurIPS)
@@ -54,14 +54,9 @@ I'm also interested in various decision making problems such as Multi-turn/Multi
 
 ## Preprints
 
-- **[P4] Improving Sampling Distribution of Off-policy Training in Generative Flow Networks**  
+- **[P3] Improving Sampling Distribution of Off-policy Training in Generative Flow Networks**  
 [[paper]]() / [[code]]()  
 **Taeyoung Yun**, Sujin Yun, Jinkyoo Park, Ling Pan  
-<span style="color:darkorchid">**Arxiv 2025**</span> 
-
-- **[P3] Diffusion Alignment as Variational Expectation-Maximization**  
-[[paper]](https://arxiv.org/abs/2510.00502) / [[code]](https://github.com/Jaewoopudding/dav)  
-Jaewoo Lee, Minsu Kim, Sanghyeok Choi, Inhyuck Song, Sujin Yun, Hyeongyu Kang, Woocheol Shin, **Taeyoung Yun**, Kiyoung Om, Jinkyoo Park \\
 <span style="color:darkorchid">**Arxiv 2025**</span> 
 
 - **[P2] Active Attacks: Red-teaming LLMs via Adaptive Environments**  
@@ -76,6 +71,11 @@ Kiyoung Om\*, Kyuil Sim\*, **Taeyoung Yun\***, Hyeongyu Kang, Jinkyoo Park
 <span style="color:darkorchid">**NeurIPS 2025 SPIGM Workshop (Oral)**</span>
 
 ## Conference Publications
+
+- **[C12] Diffusion Alignment as Variational Expectation-Maximization**  
+[[paper]](https://arxiv.org/abs/2510.00502) / [[code]](https://github.com/Jaewoopudding/dav)  
+Jaewoo Lee, Minsu Kim, Sanghyeok Choi, Inhyuck Song, Sujin Yun, Hyeongyu Kang, Woocheol Shin, **Taeyoung Yun**, Kiyoung Om, Jinkyoo Park \\
+<span style="color:darkorchid">**ICLR 2026**</span> 
 
 - **[C11] Urban Traffic Network Layout Optimization with Guided Discrete Diffusion Models** \\
 [[paper]]() / [[code]]()  
@@ -136,6 +136,13 @@ Minsu Kim\*, Juhwan Ko\*, **Taeyoung Yun\***, Dinghuai Zhang, Ling Pan, Woochang
 [[paper]](https://arxiv.org/abs/2310.02710) / [[code]](https://github.com/dbsxodud-11/ls_gfn)  
 Minsu Kim, **Taeyoung Yun**, Emmanuel Bengio, Dinghuai Zhang, Yoshua Bengio, Sungsoo Ahn, Jinkyoo Park  
 <span style="color:darkorchid">**ICLR 2024 (Spotlight)**</span>
+
+## Journal Publications
+
+- **[J1] Offline Model-Based Optimization: Comprehensive Review**  
+[[paper]](https://openreview.net/forum?id=QcSZWo1TLl) / [[code]](https://github.com/mila-iqia/Awesome-Offline-Model-Based-Optimization)  
+Minsu Kim\*, Jiayao Gu\*, Ye Yuan, **Taeyoung Yun**, Zixuan Liu, Yoshua Bengio, Can Chen \\
+<span style="color:darkorchid">**TMLR 2026 (Survey Certification)**</span>
 
 # 🎖 Honors and Awards
 - *2025.11* Qualcomm Innovation Fellowship Korea Finalist 2025
