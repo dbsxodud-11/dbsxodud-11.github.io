@@ -78,7 +78,7 @@ Jaewoo Lee, Minsu Kim, Sanghyeok Choi, Inhyuck Song, Sujin Yun, Hyeongyu Kang, W
 <span style="color:darkorchid">**ICLR 2026**</span> 
 
 - **[C11] Urban Traffic Network Layout Optimization with Guided Discrete Diffusion Models** \\
-[[paper]]() / [[code]]()  
+[[paper]](https://dl.acm.org/doi/abs/10.1145/3773966.3777950) / [[code]](https://github.com/dbsxodud-11/traffic_layout)  
 **Taeyoung Yun**, Inhyuck Song, Woocheol Shin, Yujin Shin, Sungpil Woo, Sunhwan Lim, Jinkyoo Park  
 <span style="color:darkorchid">**WSDM 2026**</span>
 
