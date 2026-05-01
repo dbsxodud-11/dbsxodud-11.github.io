@@ -25,7 +25,7 @@ I'm also interested in various decision making problems such as Multi-turn/Multi
 
 
 # 🔥 News
-- 2026.01: &nbsp;🎉🎉 3 papers accepted in 2026 (1 WSDM, 1 TMLR, 1 ICLR) 
+- 2026.01: &nbsp;🎉🎉 4 papers accepted in 2026 (1 WSDM, 1 TMLR, 1 ICLR, 1 ICML) 
 - 2025.06: &nbsp;🎉🎉 I started internship at Mila, Hosted by <a href="https://yoshuabengio.org/" style="color: #7289da; text-decoration: none;">Yoshua Bengio</a>
 - 2025.05: &nbsp;🎉🎉 5 papers accepted in 2025 (1 ICLR, 1 CVPR, 2 ICML, 1 KDD)
 - 2024.12: &nbsp;🎉🎉 5 papers accepted in 2024 (1 ICLR, 1 ICML, 1 KDD, 2 NeurIPS)
@@ -54,15 +54,15 @@ I'm also interested in various decision making problems such as Multi-turn/Multi
 
 ## Preprints
 
-- **[P3] Improving Sampling Distribution of Off-policy Training in Generative Flow Networks**  
+- **[P3] Robust Exploration through Generative Replay**  
+[[paper]]() / [[code]]()  
+Inhyuck Song, **Taeyoung Yun**, Jaewoo Lee, Jinkyoo Park\\
+<span style="color:darkorchid">**Arxiv 2026**</span> 
+
+- **[P2] Improving Sampling Distribution of Off-policy Training in Generative Flow Networks**  
 [[paper]]() / [[code]]()  
 **Taeyoung Yun**, Sujin Yun, Jinkyoo Park, Ling Pan  
 <span style="color:darkorchid">**Arxiv 2025**</span> 
-
-- **[P2] Active Attacks: Red-teaming LLMs via Adaptive Environments**  
-[[paper]](https://www.arxiv.org/abs/2509.21947) / [[code]](https://github.com/dbsxodud-11/active_attacks)  
-**Taeyoung Yun**, Pierre-Luc St-Charles, Jinkyoo Park, Yoshua Bengio, Minsu Kim  
-<span style="color:darkorchid">**Arxiv 2025**</span>
 
 - **[P1] Posterior Inference in Latent Space for Scalable Constrained Black-box Optimization**  
 [[paper]](https://arxiv.org/abs/2507.00480) / [[code]](https://github.com/umkiyoung/CiBO)  
@@ -71,6 +71,11 @@ Kiyoung Om\*, Kyuil Sim\*, **Taeyoung Yun\***, Hyeongyu Kang, Jinkyoo Park
 <span style="color:darkorchid">**NeurIPS 2025 SPIGM Workshop (Oral)**</span>
 
 ## Conference Publications
+
+- **[C13] Active Attacks: Red-teaming LLMs via Adaptive Environments**  
+[[paper]](https://www.arxiv.org/abs/2509.21947) / [[code]](https://github.com/dbsxodud-11/active_attacks)  
+**Taeyoung Yun**, Pierre-Luc St-Charles, Jinkyoo Park, Yoshua Bengio, Minsu Kim  
+<span style="color:darkorchid">**TMLR 2026**</span>
 
 - **[C12] Diffusion Alignment as Variational Expectation-Maximization**  
 [[paper]](https://arxiv.org/abs/2510.00502) / [[code]](https://github.com/Jaewoopudding/dav)  
