@@ -75,7 +75,7 @@ Kiyoung Om\*, Kyuil Sim\*, **Taeyoung Yun\***, Hyeongyu Kang, Jinkyoo Park
 - **[C13] Active Attacks: Red-teaming LLMs via Adaptive Environments**  
 [[paper]](https://www.arxiv.org/abs/2509.21947) / [[code]](https://github.com/dbsxodud-11/active_attacks)  
 **Taeyoung Yun**, Pierre-Luc St-Charles, Jinkyoo Park, Yoshua Bengio, Minsu Kim  
-<span style="color:darkorchid">**TMLR 2026**</span>
+<span style="color:darkorchid">**ICML 2026**</span>
 
 - **[C12] Diffusion Alignment as Variational Expectation-Maximization**  
 [[paper]](https://arxiv.org/abs/2510.00502) / [[code]](https://github.com/Jaewoopudding/dav)  
