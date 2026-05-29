@@ -56,7 +56,7 @@ I'm also interested in various decision making problems such as Multi-turn/Multi
 
 - **[P4] Automated Kernel Discovery for Understanding High-dimensional Bayesian Optimization**
 [[paper]](https://arxiv.org/abs/2605.20249) / [[code]](https://github.com/dbsxodud-11/automatic_kernel_discovery)  
-**Taeyoung Yun\***, Woocheol Shin\*, Inhyuck Song, Jaewoo Lee, Jinkyoo Park\\
+**Taeyoung Yun\***, Woocheol Shin\*, Inhyuck Song, Jaewoo Lee, Jinkyoo Park\\ \\
 <span style="color:darkorchid">**Arxiv 2026**</span> \\
 <span style="color:darkorchid">**ICML 2026 DEMO Workshop**</span>
 
