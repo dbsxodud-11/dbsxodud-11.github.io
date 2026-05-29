@@ -54,6 +54,13 @@ I'm also interested in various decision making problems such as Multi-turn/Multi
 
 ## Preprints
 
+- **[P4] Automated Kernel Discovery for Understanding High-dimensional Bayesian Optimization**
+[[paper]](https://arxiv.org/abs/2605.20249) / [[code]](https://github.com/dbsxodud-11/automatic_kernel_discovery)  
+**Taeyoung Yun\***, Woocheol Shin\*, Inhyuck Song, Jaewoo Lee, Jinkyoo Park\\
+<span style="color:darkorchid">**Arxiv 2026**</span> \\
+<span style="color:darkorchid">**ICML 2026 DEMO Workshop**</span>
+
+
 - **[P3] Robust Exploration through Generative Replay**  
 [[paper]]() / [[code]]()  
 Inhyuck Song, **Taeyoung Yun**, Jaewoo Lee, Jinkyoo Park\\
@@ -155,6 +162,5 @@ Minsu Kim\*, Jiayao Gu\*, Ye Yuan, **Taeyoung Yun**, Zixuan Liu, Yoshua Bengio, 
 - *2021.12* Excellence Award on DACON NH Big Data Competition. 
 - *2021.09* Dean's List (Honor for Top 2% Students). 
 
-<!-- # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
+# 💬 Invited Talks
+- *2026.05* AutoML Seminar - Posterior Inference in Generative Models for High-dimensional Black-box Optimization [\[video\]](https://automl-seminars.github.io/talks/)
