@@ -102,9 +102,16 @@ html, body {
 /* ----------------------------- Lists ---------------------------- */
 .page__content ul { margin: 0 0 0.6em; }
 .page__content li { margin-bottom: 0.4em; }
-/* date prefix in News/Education looks tidier muted */
+/* date prefix in News/Education looks tidier muted;
+   tabular-nums keeps every date the same width so the text/emoji
+   that follows lines up across rows */
 .page__content li > em:first-child,
-.page__content li > i:first-child { color: var(--muted); font-style: normal; }
+.page__content li > i:first-child {
+  color: var(--muted);
+  font-style: normal;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
 
 /* --------------- Publication entry tightening ------------------- */
 /* paper/code link line + author line spacing */

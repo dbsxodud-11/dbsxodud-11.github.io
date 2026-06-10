@@ -25,11 +25,11 @@ I'm also interested in various decision making problems such as Multi-turn/Multi
 
 
 # 🔥 News
-- 2026.01: &nbsp;🎉🎉 4 papers accepted in 2026 (1 WSDM, 1 TMLR, 1 ICLR, 1 ICML) 
-- 2025.06: &nbsp;🎉🎉 I started internship at Mila, Hosted by <a href="https://yoshuabengio.org/">Yoshua Bengio</a>
-- 2025.05: &nbsp;🎉🎉 5 papers accepted in 2025 (1 ICLR, 1 CVPR, 2 ICML, 1 KDD)
-- 2024.12: &nbsp;🎉🎉 5 papers accepted in 2024 (1 ICLR, 1 ICML, 1 KDD, 2 NeurIPS)
-- 2024.09: &nbsp;🎉🎉 I started remote internship at HKUST, Hosted by <a href="https://ling-pan.github.io/">Ling Pan</a>
+- *2026.01*: &nbsp;🎉🎉 4 papers accepted in 2026 (1 WSDM, 1 TMLR, 1 ICLR, 1 ICML) 
+- *2025.06*: &nbsp;🎉🎉 I started internship at Mila, Hosted by <a href="https://yoshuabengio.org/">Yoshua Bengio</a>
+- *2025.05*: &nbsp;🎉🎉 5 papers accepted in 2025 (1 ICLR, 1 CVPR, 2 ICML, 1 KDD)
+- *2024.12*: &nbsp;🎉🎉 5 papers accepted in 2024 (1 ICLR, 1 ICML, 1 KDD, 2 NeurIPS)
+- *2024.09*: &nbsp;🎉🎉 I started remote internship at HKUST, Hosted by <a href="https://ling-pan.github.io/">Ling Pan</a>
 
 <!-- - *2024.05*: &nbsp;🎉🎉 One paper accepted to KDD 2024 -->
 <!-- - *2024.05*: &nbsp;🎉🎉 One paper accepted to ICML 2024 -->
@@ -38,7 +38,7 @@ I'm also interested in various decision making problems such as Multi-turn/Multi
 <!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📖 Educations
-- *2024.05 - current*, Ph.D in Industrial and Systems Engineering, KAIST (Korea Advanced Institute of Science and Technology)
+- *2024.03 - current*, Ph.D in Industrial and Systems Engineering, KAIST (Korea Advanced Institute of Science and Technology)
 - *2022.09 - 2024.02*, M.S in Graduate School of AI, KAIST
 - *2018.03 - 2022.08*, B.S in Industrial and Systems Engineering & Computer Science, KAIST
 
