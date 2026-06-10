@@ -54,9 +54,16 @@ I'm also interested in various decision making problems such as Multi-turn/Multi
 
 ## Preprints
 
+- **[P5] Aligning Few-Step Generative Models by Amortizing Sample-based Variational Inference**  
+[[paper]](https://arxiv.org/abs/2605.26552) / [[code]](https://github.com/Jaewoopudding/FAV)  
+Jaewoo Lee\*, Hyeongyu Kang\*, Dohyun Kim, Kyuil Sim, Woocheol Shin, Minsu Kim, **Taeyoung Yun**, Jeongjae Lee, Sanghyeok Choi, Tabitha Edith Lee, Jongchul Ye, Jinkyoo Park  
+<span style="color:darkorchid">**Arxiv 2026**</span> \\
+<span style="color:darkorchid">**ICML 2026 SPIGM Workshop**</span>
+
+
 - **[P4] Automated Kernel Discovery for Understanding High-dimensional Bayesian Optimization**
 [[paper]](https://arxiv.org/abs/2605.20249) / [[code]](https://github.com/dbsxodud-11/automatic_kernel_discovery)  
-**Taeyoung Yun\***, Woocheol Shin\*, Inhyuck Song, Jaewoo Lee, Jinkyoo Park\\ \\
+**Taeyoung Yun\***, Woocheol Shin\*, Inhyuck Song, Jaewoo Lee, Jinkyoo Park  
 <span style="color:darkorchid">**Arxiv 2026**</span> \\
 <span style="color:darkorchid">**ICML 2026 DEMO Workshop**</span>
 
@@ -64,7 +71,8 @@ I'm also interested in various decision making problems such as Multi-turn/Multi
 - **[P3] Robust Exploration through Generative Replay**  
 [[paper]]() / [[code]]()  
 Inhyuck Song, **Taeyoung Yun**, Jaewoo Lee, Jinkyoo Park\\
-<span style="color:darkorchid">**Arxiv 2026**</span> 
+<span style="color:darkorchid">**Arxiv 2026**</span> \\
+<span style="color:darkorchid">**ICML 2026 RLxF Workshop**</span>
 
 - **[P2] Improving Sampling Distribution of Off-policy Training in Generative Flow Networks**  
 [[paper]]() / [[code]]()  
