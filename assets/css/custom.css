@@ -1,0 +1,147 @@
+/* ============================================================
+   Aesthetic overrides — Refined Navy
+   Loaded after main.css (via _includes/head/custom.html).
+   Structure untouched; this only restyles typography & colors.
+   ============================================================ */
+
+:root {
+  --accent:       #1f3a8a;   /* navy link */
+  --accent-hover: #2c4fb0;
+  --ink:          #1c1e21;
+  --muted:        #6b7280;
+  --rule:         #e7e9ee;
+  --pill-bg:      #eef1f6;
+  --pill-text:    #344056;
+}
+
+/* ----------------------------- Type ----------------------------- */
+html, body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif !important;
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.page__content {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--ink);
+}
+.page__content p { margin: 0 0 1.1em; }
+
+/* --------------------------- Headings --------------------------- */
+/* theme sets $header-font-family (Trebuchet MS) on headings — force Inter */
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4,
+.page__content h5,
+.page__content h6 {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif !important;
+}
+
+.page__content h1 {
+  font-size: 1.45rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 2.4rem 0 1.1rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--rule);
+}
+.page__content h2 {
+  font-size: 1.12rem;
+  font-weight: 650;
+  color: #374151;
+  margin: 1.7rem 0 0.7rem;
+}
+
+/* ---------------------------- Links ----------------------------- */
+.page__content a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color .15s ease;
+}
+.page__content a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+/* safety net for any leftover inline colors */
+.page__content [style*="7289da"] { color: var(--accent) !important; }
+
+/* ------------------------ Venue badges -------------------------- */
+.venue {
+  display: inline-block;
+  padding: 2px 9px;
+  margin: 2px 0;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.5;
+  background: var(--pill-bg);
+  color: var(--pill-text);
+  white-space: nowrap;
+}
+.venue strong { font-weight: 600; }   /* neutralize ** bold inside */
+
+/* distinction markers (Oral / Spotlight / Survey Certification) */
+.venue--honor {
+  background: #fdf1d8;
+  color: #9a6206;
+  border: 1px solid #f1d090;
+}
+
+/* awards / fellowships */
+.venue--award {
+  background: #e8eefc;
+  color: #1f3a8a;
+  border: 1px solid #c3d2f5;
+}
+
+/* ----------------------------- Lists ---------------------------- */
+.page__content ul { margin: 0 0 0.6em; }
+.page__content li { margin-bottom: 0.4em; }
+/* date prefix in News/Education looks tidier muted */
+.page__content li > em:first-child,
+.page__content li > i:first-child { color: var(--muted); font-style: normal; }
+
+/* --------------- Publication entry tightening ------------------- */
+/* paper/code link line + author line spacing */
+.page__content li strong { color: var(--ink); }
+
+/* ----------------------- Sidebar / profile ---------------------- */
+/* theme sets $sans-serif (Trebuchet MS) on these with high specificity,
+   so force Inter on the TEXT elements only (never use a blanket *,
+   which would clobber the icon fonts on <i> elements) */
+.sidebar,
+.author__name,
+.sidebar .author__name,
+.author__bio,
+.author__urls-wrapper,
+.author__urls,
+.author__urls li,
+.author__urls a {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif !important;
+}
+
+/* restore icon fonts (Font Awesome 5 + Academicons) in case the rules
+   above leak into the <i> glyph elements */
+.sidebar .fab,
+.author__urls .fab        { font-family: "Font Awesome 5 Brands" !important; }
+.sidebar .fa,
+.sidebar .fas,
+.sidebar .far,
+.author__urls .fa,
+.author__urls .fas,
+.author__urls .far        { font-family: "Font Awesome 5 Free" !important; }
+.sidebar .ai,
+.author__urls .ai         { font-family: "academicons" !important; }
+
+.author__avatar img {
+  border-radius: 50% !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,.08);
+}
+.author__name { letter-spacing: -0.01em; }
+.author__urls a:hover { color: var(--accent-hover); }
