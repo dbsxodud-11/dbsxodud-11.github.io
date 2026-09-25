@@ -25,7 +25,7 @@ I'm also interested in various decision making problems such as Multi-turn/Multi
 
 
 # 🔥 News
-- *2026.01*: &nbsp;🎉🎉 4 papers accepted in 2026 (1 WSDM, 1 TMLR, 1 ICLR, 1 ICML) 
+- *2026.09*: &nbsp;🎉🎉 8 papers accepted in 2026 (1 WSDM, 1 TMLR, 1 ICLR, 1 ICML, 1 CIKM, 3 NeurIPS) 
 - *2025.06*: &nbsp;🎉🎉 I started internship at Mila, Hosted by <a href="https://yoshuabengio.org/">Yoshua Bengio</a>
 - *2025.05*: &nbsp;🎉🎉 5 papers accepted in 2025 (1 ICLR, 1 CVPR, 2 ICML, 1 KDD)
 - *2024.12*: &nbsp;🎉🎉 5 papers accepted in 2024 (1 ICLR, 1 ICML, 1 KDD, 2 NeurIPS)
@@ -44,7 +44,7 @@ I'm also interested in various decision making problems such as Multi-turn/Multi
 
 # 💻 Internships
 <!-- - *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
-- *2025.06 - 2025.08*, Internship at Mila, hosted by <a href="https://yoshuabengio.org/">Yoshua Bengio</a>
+- *2025.06 - 2025.11*, Internship at Mila, hosted by <a href="https://yoshuabengio.org/">Yoshua Bengio</a>
 - *2024.09 - 2025.03*, Remote Internship at HKUST (Hong Kong University of Science and Technology), hosted by <a href="https://ling-pan.github.io/">Ling Pan</a>
 - *2021.03 - 2021.08*, Internship at Kakao Recommendation Team
 
@@ -54,34 +54,42 @@ I'm also interested in various decision making problems such as Multi-turn/Multi
 
 ## Preprints
 
-- **[P5] Aligning Few-Step Generative Models by Amortizing Sample-based Variational Inference**  
-[[paper]](https://arxiv.org/abs/2605.26552) / [[code]](https://github.com/Jaewoopudding/FAV)  
-Jaewoo Lee\*, Hyeongyu Kang\*, Dohyun Kim, Kyuil Sim, Woocheol Shin, Minsu Kim, **Taeyoung Yun**, Jeongjae Lee, Sanghyeok Choi, Tabitha Edith Lee, Jongchul Ye, Jinkyoo Park  
-<span class="venue">**Arxiv 2026**</span> <span class="venue">**ICML 2026 SPIGM Workshop**</span>
+- **[P3] Decoupling Exploration and Exploitation in GFlowNets via Policy Evaluation**  
+[[paper]](https://openreview.net/forum?id=sJbMlWrd9b) / [[code]]()  
+**Taeyoung Yun\***, Inhyuck Song\*, Jinkyoo Park, Ling Pan  
+<span class="venue">**Arxiv 2026**</span>
 
-
-- **[P4] Automated Kernel Discovery for Understanding High-dimensional Bayesian Optimization**  
-[[paper]](https://arxiv.org/abs/2605.20249) / [[code]](https://github.com/dbsxodud-11/automatic_kernel_discovery)  
-**Taeyoung Yun\***, Woocheol Shin\*, Inhyuck Song, Jaewoo Lee, Jinkyoo Park  
-<span class="venue">**Arxiv 2026**</span> <span class="venue">**ICML 2026 DEMO Workshop**</span>
-
-
-- **[P3] Robust Exploration through Generative Replay**  
-[[paper]]() / [[code]]()  
-Inhyuck Song, **Taeyoung Yun**, Jaewoo Lee, Jinkyoo Park\\
+- **[P2] Robust Exploration through Generative Replay**  
+[[paper]](https://openreview.net/forum?id=yyMfN4EHqD) / [[code]]()  
+Inhyuck Song, **Taeyoung Yun**, Jaewoo Lee, Jinkyoo Park  
 <span class="venue">**Arxiv 2026**</span> <span class="venue">**ICML 2026 RLxF Workshop**</span>
 
-- **[P2] Improving Sampling Distribution of Off-policy Training in Generative Flow Networks**  
+- **[P1] Improving Sampling Distribution of Off-policy Training in Generative Flow Networks**  
 [[paper]]() / [[code]]()  
 **Taeyoung Yun**, Sujin Yun, Jinkyoo Park, Ling Pan  
 <span class="venue">**Arxiv 2025**</span> 
 
-- **[P1] Posterior Inference in Latent Space for Scalable Constrained Black-box Optimization**  
+## Conference Publications
+
+- **[C17] Posterior Inference in Latent Space for Scalable Constrained Black-box Optimization**  
 [[paper]](https://arxiv.org/abs/2507.00480) / [[code]](https://github.com/umkiyoung/CiBO)  
 Kiyoung Om\*, Kyuil Sim\*, **Taeyoung Yun\***, Hyeongyu Kang, Jinkyoo Park  
-<span class="venue">**Arxiv 2025**</span> <span class="venue">**NeurIPS 2025 SPIGM Workshop**</span>
+<span class="venue">**NeurIPS 2026**</span> <span class="venue">**NeurIPS 2025 SPIGM Workshop**</span>
 
-## Conference Publications
+- **[C16] Aligning Few-Step Generative Models by Amortizing Sample-based Variational Inference**  
+[[paper]](https://arxiv.org/abs/2605.26552) / [[code]](https://github.com/Jaewoopudding/FAV)  
+Jaewoo Lee\*, Hyeongyu Kang\*, Dohyun Kim, Kyuil Sim, Woocheol Shin, Minsu Kim, **Taeyoung Yun**, Jeongjae Lee, Sanghyeok Choi, Tabitha Edith Lee, Jongchul Ye, Jinkyoo Park  
+<span class="venue">**NeurIPS 2026**</span> <span class="venue">**ICML 2026 SPIGM Workshop**</span>
+
+- **[C15] Automated Kernel Discovery for Understanding High-dimensional Bayesian Optimization**  
+[[paper]](https://arxiv.org/abs/2605.20249) / [[code]](https://github.com/dbsxodud-11/automatic_kernel_discovery)  
+**Taeyoung Yun\***, Woocheol Shin\*, Inhyuck Song, Jaewoo Lee, Jinkyoo Park  
+<span class="venue">**NeurIPS 2026**</span> <span class="venue">**ICML 2026 DEMO Workshop**</span>
+
+- **[C14] SUMO-SimQA: A Benchmark for LLM Cross-File Reasoning over Traffic Simulation Files**  
+[[paper]]() / [[code]]()  
+Jeeyun Chang\*, **Taeyoung Yun\***, Minwoo Jeong, Jinkyoo Park, Yoonjin Yoon  
+<span class="venue">**CIKM 2026**</span> <span class="venue">**Short Paper**</span>
 
 - **[C13] Active Attacks: Red-teaming LLMs via Adaptive Environments**  
 [[paper]](https://www.arxiv.org/abs/2509.21947) / [[code]](https://github.com/dbsxodud-11/active_attacks)  
