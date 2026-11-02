@@ -1,3 +1,15 @@
 _site/
 push.sh
 .DS_Store
+
+# CV sources live in cv/; the zip export does not belong in git
+CV_*.zip
+
+# LaTeX build artifacts from cv/
+cv/*.aux
+cv/*.log
+cv/*.out
+cv/*.fls
+cv/*.fdb_latexmk
+cv/*.synctex.gz
+cv/main.pdf

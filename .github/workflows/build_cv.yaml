@@ -1,0 +1,36 @@
+name: Build CV
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'cv/**'
+      - '.github/workflows/build_cv.yaml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Compile main.tex
+      uses: xu-cheng/latex-action@v3
+      with:
+        working_directory: cv
+        root_file: main.tex
+    - name: Publish as assets/cv.pdf
+      run: mv cv/main.pdf assets/cv.pdf
+    - name: Commit
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add assets/cv.pdf
+        if git diff --cached --quiet; then
+          echo "cv.pdf unchanged; nothing to commit"
+          exit 0
+        fi
+        git commit -m "rebuild assets/cv.pdf from cv/main.tex"
+        git push

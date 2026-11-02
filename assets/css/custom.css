@@ -30,6 +30,11 @@ html, body {
 }
 .page__content p { margin: 0 0 1.1em; }
 
+/* avoid a lone word stranded on a paragraph's last line (orphan/runt);
+   no-op in browsers without text-wrap: pretty */
+.page__content p,
+.page__content li { text-wrap: pretty; }
+
 /* --------------------------- Headings --------------------------- */
 /* theme sets $header-font-family (Trebuchet MS) on headings — force Inter */
 .page__content h1,

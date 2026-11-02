@@ -17,19 +17,20 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a PhD student at <a href="http://silab.kaist.ac.kr/">System Intelligence</a> lab in KAIST. I am fortunate to be advised by Professor <a href="https://scholar.google.com/citations?user=sH2a0nkAAAAJ&hl=en">Jinkyoo Park</a>. Here is my <a href="https://dbsxodud-11.github.io/assets/cv.pdf" class="link-in-list"> cv</a>.
+I am a PhD student at <a href="http://silab.kaist.ac.kr/">System Intelligence</a> lab in KAIST (Korea Advanced Institute of Science and Technology). I am fortunate to be advised by Professor <a href="https://scholar.google.com/citations?user=sH2a0nkAAAAJ&hl=en">Jinkyoo Park</a>. Previously, I was a research intern at <a href="https://europe.naverlabs.com/">NaverLabs Europe</a> and <a href="https://mila.quebec/en">Mila</a>, and a visiting intern at <a href="https://hkust.edu.hk/">HKUST</a>. Here is my <a href="https://dbsxodud-11.github.io/assets/cv.pdf" class="link-in-list"> cv</a>.
 
-My research interest lies in controllable generative modeling with large models (e.g., LLMs, Diffusion/Flow-based models) via exploring their latent spaces. Especially, I'm interested in building an amortized sampler that can extract crucial latents for generating desired samples. To accomplish this, my research focuses on the amortizing inference of generative models with off-policy RL approaches.
+My research interest lies in building generative agents that make reliable decisions in the real world. Simulators of real-world systems are becoming easier to build with the help of LLMs, but they never perfectly reflect reality or user intent. I am interested in how to align simulators with user intent and how to train generative policies that stay robust under such uncertainty. To this end, my research focuses on user-simulator alignment, reinforcement learning under uncertainty, and black-box optimization.
 
-I'm also interested in various decision making problems such as Multi-turn/Multi-agent RL. I've also participated in several transportation-related projects based on high-dimensional black-box optimization methods. 
+During my earlier PhD years, I studied amortized samplers, such as GFlowNets, that learn diverse generative policies for text, image, and biological sequence generation. I also worked on transportation-related projects, such as traffic light management and network layout design, where I formulated each task as a black-box optimization problem over an existing simulator.
 
 
 # 🔥 News
 - *2026.09*: &nbsp;🎉🎉 8 papers accepted in 2026 (1 WSDM, 1 TMLR, 1 ICLR, 1 ICML, 1 CIKM, 3 NeurIPS) 
+- *2026.08*: &nbsp;🎉🎉 I started internship at NaverLabs Europe, Hosted by <a href="https://scholar.google.com/citations?user=B3-rbrcAAAAJ&hl=en">Darko Drakulic</a> and <a href="https://www.linkedin.com/in/sofiazaourar/">Sofia Michel</a>
+- *2025.12*: &nbsp;🎉🎉 5 papers accepted in 2025 (1 ICLR, 1 CVPR, 2 ICML, 1 KDD)
 - *2025.06*: &nbsp;🎉🎉 I started internship at Mila, Hosted by <a href="https://yoshuabengio.org/">Yoshua Bengio</a>
-- *2025.05*: &nbsp;🎉🎉 5 papers accepted in 2025 (1 ICLR, 1 CVPR, 2 ICML, 1 KDD)
 - *2024.12*: &nbsp;🎉🎉 5 papers accepted in 2024 (1 ICLR, 1 ICML, 1 KDD, 2 NeurIPS)
-- *2024.09*: &nbsp;🎉🎉 I started remote internship at HKUST, Hosted by <a href="https://ling-pan.github.io/">Ling Pan</a>
+- *2024.09*: &nbsp;🎉🎉 I started internship at HKUST, Hosted by <a href="https://ling-pan.github.io/">Ling Pan</a>
 
 <!-- - *2024.05*: &nbsp;🎉🎉 One paper accepted to KDD 2024 -->
 <!-- - *2024.05*: &nbsp;🎉🎉 One paper accepted to ICML 2024 -->
@@ -38,15 +39,16 @@ I'm also interested in various decision making problems such as Multi-turn/Multi
 <!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📖 Educations
-- *2024.03 - current*, Ph.D in Industrial and Systems Engineering, KAIST (Korea Advanced Institute of Science and Technology)
+- *2024.03 - current*, Ph.D in Industrial and Systems Engineering, KAIST
 - *2022.09 - 2024.02*, M.S in Graduate School of AI, KAIST
 - *2018.03 - 2022.08*, B.S in Industrial and Systems Engineering & Computer Science, KAIST
 
 # 💻 Internships
 <!-- - *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
-- *2025.06 - 2025.11*, Internship at Mila, hosted by <a href="https://yoshuabengio.org/">Yoshua Bengio</a>
-- *2024.09 - 2025.03*, Remote Internship at HKUST (Hong Kong University of Science and Technology), hosted by <a href="https://ling-pan.github.io/">Ling Pan</a>
-- *2021.03 - 2021.08*, Internship at Kakao Recommendation Team
+- *2026.08 - 2026.11*, Research Intern at NaverLabs Europe, hosted by <a href="https://scholar.google.com/citations?user=B3-rbrcAAAAJ&hl=en">Darko Drakulic</a> and <a href="https://www.linkedin.com/in/sofiazaourar/">Sofia Michel</a>
+- *2025.06 - 2025.11*, Research Intern at Mila, hosted by <a href="https://yoshuabengio.org/">Yoshua Bengio</a>
+- *2024.09 - 2025.03*, Visiting Intern at HKUST, hosted by <a href="https://ling-pan.github.io/">Ling Pan</a>
+- *2021.03 - 2021.08*, Research Intern at Kakao Recommendation Team
 
 
 # 📝 Publications 
@@ -54,18 +56,23 @@ I'm also interested in various decision making problems such as Multi-turn/Multi
 
 ## Preprints
 
+- **[P4] Noise-Space Reward Alignment for Few-Step Generative Models**  
+[[paper]](https://arxiv.org/abs/2610.21125) / [[code]](https://github.com/Shin-woocheol/NPO)  
+Woocheol Shin, **Taeyoung Yun**, Jiwon Sung, Hyeongyu Kang, Jeongmin Park, Jaewoo Lee, Kyuil Sim, Dohyun Kim, Yutong He, Jinkyoo Park  
+<span class="venue">**Arxiv 2026**</span>
+
 - **[P3] Decoupling Exploration and Exploitation in GFlowNets via Policy Evaluation**  
-[[paper]](https://openreview.net/forum?id=sJbMlWrd9b) / [[code]]()  
+[[paper]]() / [[code]]()  
 **Taeyoung Yun\***, Inhyuck Song\*, Jinkyoo Park, Ling Pan  
 <span class="venue">**Arxiv 2026**</span>
 
 - **[P2] Robust Exploration through Generative Replay**  
-[[paper]](https://openreview.net/forum?id=yyMfN4EHqD) / [[code]]()  
+[[paper]](https://openreview.net/forum?id=sJbMlWrd9b) / [[code]]()  
 Inhyuck Song, **Taeyoung Yun**, Jaewoo Lee, Jinkyoo Park  
 <span class="venue">**Arxiv 2026**</span> <span class="venue">**ICML 2026 RLxF Workshop**</span>
 
 - **[P1] Improving Sampling Distribution of Off-policy Training in Generative Flow Networks**  
-[[paper]]() / [[code]]()  
+[[paper]](https://openreview.net/forum?id=yyMfN4EHqD) / [[code]]()  
 **Taeyoung Yun**, Sujin Yun, Jinkyoo Park, Ling Pan  
 <span class="venue">**Arxiv 2025**</span> 
 
@@ -87,7 +94,7 @@ Jaewoo Lee\*, Hyeongyu Kang\*, Dohyun Kim, Kyuil Sim, Woocheol Shin, Minsu Kim, 
 <span class="venue">**NeurIPS 2026**</span> <span class="venue">**ICML 2026 DEMO Workshop**</span>
 
 - **[C14] SUMO-SimQA: A Benchmark for LLM Cross-File Reasoning over Traffic Simulation Files**  
-[[paper]]() / [[code]]()  
+[[paper]]() / [[code]](https://github.com/urban-ai-institute/kra34-sumo-llm-qa-benchmark)  
 Jeeyun Chang\*, **Taeyoung Yun\***, Minwoo Jeong, Jinkyoo Park, Yoonjin Yoon  
 <span class="venue">**CIKM 2026**</span> <span class="venue">**Short Paper**</span>
 

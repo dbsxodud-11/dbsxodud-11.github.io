@@ -1,0 +1,684 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Class
+% Version 2.0 (12/10/23)
+%
+% This class originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Omar Roldan
+% Based on a template by  Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage{multicol}
+\setlength{\columnsep}{0mm}
+%----------------------------------------------------------------------------------------
+\usepackage{lipsum}  
+\hbadness=99999  % or any number >=10000
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.5\textwidth} 
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	{ \fontsize{16}{20} \textcolor{black}{\textbf{\MakeUppercase{Taeyoung Yun}}}} % First name
+	\vspace{8pt}
+	
+	{\Large Ph.D student @ KAIST} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.27\textwidth} % 27% of the page width for the second row of icons	
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+    \icon{Envelope}{11}{\href{mailto:99yty@kaist.ac.kr}{99yty@kaist.ac.kr}}\\
+    \icon{Github}{11}{\href{https://github.com/dbsxodud-11}{dbsxodud-11}}\\	
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.27\textwidth} % 27% of the page width for the second row of icons	
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+    \icon{Linkedin}{11}{\href{https://www.linkedin.com/in/taeyoung-yun-295864269/}{Taeyoung Yun}}\\	
+    \icon{Globe}{11}{\href{https://dbsxodud-11.github.io/}{dbsxodud-11.github.io}}\\
+\end{minipage}
+
+
+% ----------------------------------------------------------------------------------------
+% 	INTRODUCTION, SKILLS AND TECHNOLOGIES
+% ----------------------------------------------------------------------------------------
+\cvsect{Research Interest}
+\vspace{-6pt}
+
+% My research interests lie in solving complex, high-dimensional black-box optimization problems through the lens of conditional generative modeling. 
+% Specifically, I'm interested in building an amortized sampler with generative models (e.g., Diffusion / Flow-based models) that can extract crucial latent variables to generate desired samples during the online experimentation loop. To accomplish this, my research focuses on the amortizing inference of generative models with off-policy RL approaches.\\
+
+% I'm also interested in various decision-making problems, such as Multi-turn / Multi-agent RL. I've also participated in several transportation-related projects based on high-dimensional black-box optimization methods.
+
+% My research interests lie in controllable generative modeling with large models (e.g., LLMs, Diffusion / Flow-based models) by exploring their latent spaces. In particular, I’m interested in building an amortized sampler that can extract crucial latents to generate desired samples. To accomplish this, my research focuses on amortized inference for generative models using off-policy reinforcement learning (RL) methods.\\  
+
+% I am motivated to extend this work toward reducing risks from advanced AI systems, with particular interest in adversarial robustness, AI control, and scalable oversight. My current research topics are:
+
+% I'm also interested in various decision making problems such as Multi-turn/Multi-agent RL. I've also participated in several transportation-related projects based on high-dimensional black-box optimization methods. My current research topics are:
+
+% \begin{itemize}
+%     \item \textbf{RL for LLMs}: Developing an off-policy RL algorithm for post-training of LLMs to solve diverse downstream tasks \textbf{([C7], [C13], [P3])}.
+%     \item \textbf{RL for Scientific Discovery:} Developing an off-policy RL algorithm to search high-performing and diverse candidates for scientific discovery \textbf{([C1], [C2], [C6], [C8], [P1])}. 
+%     \item \textbf{Generative models for Optimization}: Developing a generative model-based approach (Diffusion / Flow-based models) for searching promising candidates in high-dimensional space \textbf{([C9], [C10], [C11], [C17])}.
+%     \item \textbf{Traffic System Management}: developing a deep learning-based lightweight method for controlling several components in real-world traffic systems (e.g., traffic lights) for efficient management.
+% \end{itemize}
+
+My research interest lies in building generative agents that make reliable decisions in the real world. Simulators of real-world systems are becoming easier to build with the help of LLMs, but they never perfectly reflect reality or user intent. I am interested in how to align simulators with user intent and how to train generative policies that stay robust under such uncertainty. To this end, my research focuses on user-simulator alignment, reinforcement learning under uncertainty, and black-box optimization. \\
+
+During my earlier PhD years, I studied amortized samplers, such as GFlowNets, that learn diverse generative policies for text, image, and biological sequence generation. I also worked on transportation-related projects, such as traffic light management and network layout design, where I formulated each task as a black-box optimization problem over an existing simulator. My current research topics are:
+
+\begin{itemize}
+    \item \textbf{RL for Scientific Discovery:} Developing an off-policy RL algorithm to search for high-performing and diverse candidates for scientific discovery \textbf{([C1], [C2], [C6], [C8], [C16], [P1], [P3], [P4])}. 
+    \item \textbf{Generative models for Optimization}: Developing a generative model-based approach (Diffusion / Flow-based models) for searching promising candidates in high-dimensional space \textbf{([C9], [C10], [C11], [C17])}.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+% \vspace{-10 pt}
+\cvsect{Education}
+\begin{entrylist}
+    \entry
+        {03/2024 - Current}
+        {Ph.D Student in Industrial and Systems Engineering}
+        {KAIST}
+        {\vspace{-7pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[] Supervised by Jinkyoo Park
+            % \item[] Ph.D Thesis: Bridging Optimization and Generative Modeling via Reward-guided Sampling (Committee: Jinkyoo Park, Il-chul Moon, Hoseung Song, Sungsoo Ahn, Ling Pan)
+            % \item[] Relevant coursework:
+            % \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=20pt]
+            %     \item Advanced Statistics
+            %     \item Special Topics in Data Science I<Deep Generative Model>
+            %     \item Advanced Topics in Deep Reinforcement Learning
+            % \end{itemize}
+        \end{itemize}
+        }
+    \entry
+		{08/2022 - 02/2024}
+		{M.S in Graduate School of AI}
+		{KAIST}
+		{\vspace{-7pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[] Supervised by Jinkyoo Park
+            \item[] M.S Thesis: Offline Meta Black-box Optimization Framework for Intelligent Traffic Light Management System
+            % \item[] Relevant coursework:
+            % \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=20pt]
+            %     \item Advanced Statistics
+            %     \item Special Topics in Data Science I<Deep Generative Model>
+            %     \item Advanced Topics in Deep Reinforcement Learning
+            % \end{itemize}
+        \end{itemize}
+        }
+	\entry
+		{03/2018 - 08/2022}
+		{B.S in Industrial and Systems Engineering \& Computer Science} 
+		{\textbf{KAIST}}
+        {\vspace{-5pt}
+        % \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            % \item[] Double major
+            % \item[] Relevant coursework:
+            % \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=20pt]
+            %     \item Statistics for Industrial Engineering
+            %     \item Mathematical Analysis
+            %     \item Linear and Nonlinear Optimization
+            %     \item Concepts and Applications in Probability
+            % \end{itemize}
+        % \end{itemize}
+        }
+\end{entrylist}
+
+\vspace{-5 pt}
+\cvsect{Internships}
+\begin{entrylist}
+  %   \entry
+  %       {06/2027 - 08/2027}
+		% {Research Intern at AWS} 
+		% {\textbf{New York City, USA}}
+  %       {\vspace{-5pt}
+  %       \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+  %           \item[] Hosted by Yuting Zhang
+  %           \item[] 
+  %       \end{itemize}
+  %       }
+    \entry
+        {08/2026 - 10/2026}
+		{Research Intern at NaverLabs Europe} 
+		{\textbf{Grenoble, France}}
+        {\vspace{-5pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[] Hosted by Darko Drakulic and Sofia Michel
+            \item[] Develop a scalable RL algorithm for online multi-agent coordination under uncertainty
+        \end{itemize}
+        }
+    \entry
+        {06/2025 - 11/2025}
+		{Research Intern at Mila} 
+		{\textbf{Montreal, Canada}}
+        {\vspace{-5pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[] Hosted by Yoshua Bengio
+            \item[] RL-based red-teaming with evolving environments by safety fine-tuning the victim LLM to promote easy-to-hard exploration.
+        \end{itemize}
+        }
+	\entry
+        {09/2024 - 03/2025}
+		{Visiting Intern at HKUST} 
+		{\textbf{Hong Kong (Remote)}}
+        {\vspace{-5pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[] Hosted by Ling Pan
+            \item[] Fine-tuning LLM with GFlowNets to generate diverse and effective prompts for text-to-image diffusion models.
+        \end{itemize}
+        }
+    \entry
+        {03/2021 - 08/2021}
+		{Research Intern at Kakao Recommendation Team} 
+		{\textbf{Seoul, Korea}}
+        {\vspace{-5pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[] Develop contextual bandit algorithms for a personal recommendation.
+            \item[] Analyze the gap between simulation and real‑world deployment.
+        \end{itemize}
+        }
+ \end{entrylist}
+
+ % \vspace{-5 pt}
+\clearpage
+\cvsect{Industrial Projects}
+\begin{entrylist}
+    \entry
+        {03/2026 - Current}
+        {Agentic AI for Traffic-related Question Answering}
+        {Seoul, Korea}
+        {\vspace{-5pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[] Collaborate with GS
+            \item[] Develop an Agentic AI system for developing LLM-based for better traffic-related question answering framework.
+        \end{itemize}
+        }
+    \entry
+        {09/2024 - 09/2025}
+        {Traffic Network Layout Optimization}
+        {Seoul, Korea}
+        {\vspace{-5pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[] Collaborate with GS
+            \item[] Develop a Generative model-based design algorithm for optimizing traffic network layout on a given traffic pattern.
+        \end{itemize}
+        }
+	\entry
+        {03/2023 - 03/2024}
+		{Incentive Design for Managing Taxi Fleet} 
+		{Daejeon, Korea}
+        {\vspace{-5pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[] Collaborate with ETRI
+            \item[] Develop an RL‑based incentive design algorithm for rebalancing taxi fleets to resolve the taxi imbalance problem.
+        \end{itemize}
+        }
+    \entry
+        {03/2022 - 03/2023}
+		{Traffic Light Optimization} 
+		{\textbf{Seoul, Korea}}
+        {\vspace{-5pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[] Collaborate with KT
+            \item[] Develop a Bayesian optimization algorithm for managing multiple traffic lights in the real world to reduce congestion.
+        \end{itemize}
+        }
+ \end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+% \vspace{-5 pt}
+\cvsect{Publications}
+
+\vspace{-5pt}
+$^*$: Equal Contribution
+\vspace{8pt}
+
+\textbf{Preprints}
+\vspace{8pt}
+\begin{entrylist}
+    \entry
+        {Arxiv, 2026}
+        {[P4] Noise-Space Reward Alignment for Few-Step Generative Models}
+        {}
+        {Woocheol Shin, \underline{\textbf{Taeyoung Yun}}, Jiwon Sung, Hyeongyu Kang, Jeongmin Park, Jaewoo Lee, Kyuil Sim, Dohyun Kim, Yutong He, and Jinkyoo Park
+        \begin{itemize}[noitemsep,topsep=2pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[]{\href{https://arxiv.org/abs/2610.21125}{Paper} / \href{https://github.com/Shin-woocheol/NPO}{Code}}
+        \end{itemize}
+        }
+    \entry
+        {Arxiv, 2026}
+        {[P3] Decoupling Exploration and Exploitation in GFlowNets via Policy Evaluation}
+        {}
+        {\underline{\textbf{Taeyoung Yun}$^{*}$}, Inhyuck Song$^{*}$, Jinkyoo Park, and Ling Pan
+        \begin{itemize}[noitemsep,topsep=2pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[]{\href{}{Paper} / \href{}{Code}}
+        \end{itemize}
+        }
+    \entry
+        {Arxiv, 2026 \\ (based on ICMLW)}
+        {[P2] Robust Exploration through Generative Replay}
+        {}
+        {Inhyuck Song, \underline{\textbf{Taeyoung Yun}}, Jaewoo Lee, and Jinkyoo Park
+        \begin{itemize}[noitemsep,topsep=2pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[]{\href{https://openreview.net/forum?id=sJbMlWrd9b}{Paper} / \href{}{Code}}
+        \end{itemize}
+        }
+    \entry
+        {Arxiv, 2025}
+        {[P1] Improving Sampling Distribution of Off-policy Training in Generative Flow Networks}
+        {}
+        {\underline{\textbf{Taeyoung Yun}}, Sujin Yun, Jinkyoo Park, and Ling Pan
+        \begin{itemize}[noitemsep,topsep=2pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[]{\href{https://openreview.net/forum?id=yyMfN4EHqD}{Paper} / \href{}{Code}}
+        \end{itemize}
+        }
+    \vspace{-3pt}
+    
+\end{entrylist}
+\textbf{Conference Publications}
+\vspace{8pt}
+\begin{entrylist}
+    \entry
+        {NeurIPS, 2026  \\ (based on NIPSW)}
+        {[C17] Posterior Inference in Latent Space for Scalable Constrained Black-box Optimization}
+        {}
+        {Kiyoung Om$^*$, Kyuil Sim$^*$, \underline{\textbf{Taeyoung Yun$^{*}$}}, Hyeongyu Kang, and Jinkyoo Park
+        \begin{itemize}[noitemsep,topsep=2pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[]{\href{https://arxiv.org/abs/2507.00480}{Paper} / \href{https://github.com/umkiyoung/CiBO}{Code}}
+        \end{itemize}
+        }
+    \entry
+        {NeurIPS, 2026 \\ (based on ICMLW)}
+        {[C16] Aligning Few-Step Generative Models by Amortizing Sample-based Variational Inference}
+        {}
+        {Jaewoo Lee$^*$, Hyeongyu Kang$^*$, Dohyun Kim, Kyuil Sim, Woocheol Shin, Minsu Kim, \underline{\textbf{Taeyoung Yun}}, Jeongjae Lee, Sanghyeok Choi, Tabitha Edith Lee, Jongchul Ye, Jinkyoo Park
+        \begin{itemize}[noitemsep,topsep=2pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[]{\href{https://arxiv.org/abs/2605.26552}{Paper} / \href{https://github.com/Jaewoopudding/FAV}{Code}}
+        \end{itemize}
+        }
+    \entry
+        {NeurIPS, 2026 \\ (based on ICMLW)}
+        {[C15] Automated Kernel Discovery for Understanding High-dimensional Bayesian Optimization}
+        {}
+        {\underline{\textbf{Taeyoung Yun}$^{*}$}, Woocheol Shin$^{*}$, Inhyuck Song, Jaewoo Lee, and Jinkyoo Park
+        \begin{itemize}[noitemsep,topsep=2pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[]{\href{https://arxiv.org/abs/2605.20249}{Paper} / \href{https://github.com/dbsxodud-11/automatic_kernel_discovery}{Code}}
+        \end{itemize}
+        }
+    \entry
+        {CIKM, 2026 \\ (Short Paper)}
+        {[C14] SUMO-SimQA: A Benchmark for LLM Cross-File Reasoning over Traffic Simulation Files}
+        {}
+        {Jeeyun	Chang$^{*}$, \underline{\textbf{Taeyoung Yun$^{*}$}}, Minwoo Jeong, Jinkyoo Park, and Yoonjin Yoon
+        \begin{itemize}[noitemsep,topsep=2pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[]{\href{}{Paper} / \href{https://github.com/urban-ai-institute/kra34-sumo-llm-qa-benchmark}{Code}}
+        \end{itemize}
+        }
+    \vspace{-3pt}
+    \entry
+        {ICML, 2026}
+        {[C13] Active Attacks: Red-teaming LLMs via Adaptive Environments}
+        {}
+        {\underline{\textbf{Taeyoung Yun}}, Pierre-Luc St-Charles, Jinkyoo Park, Yoshua Bengio, and Minsu Kim
+        \begin{itemize}[noitemsep,topsep=2pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[]{\href{https://www.arxiv.org/abs/2509.21947}{Paper} / \href{https://github.com/dbsxodud-11/active_attacks}{Code}}
+        \end{itemize}
+        }
+    \vspace{-3pt}
+    \entry
+        {ICLR, 2026}
+        {[C12] Diffusion Alignment as Variational Expectation-Maximization}
+        {}
+        {Jaewoo Lee, Minsu Kim, Sanghyeok Choi, Inhyuck Song, Sujin Yun, Hyeongyu Kang, Woocheol Shin, \underline{\textbf{Taeyoung Yun}}, Kiyoung Om, and Jinkyoo Park
+        \begin{itemize}[noitemsep,topsep=2pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[]{\href{https://arxiv.org/abs/2510.00502}{Paper} / \href{https://github.com/Jaewoopudding/dav}{Code}}
+        \end{itemize}
+        }
+    \vspace{-3pt}
+    \entry
+        {WSDM, 2026}
+        {[C11] Urban Traffic Network Layout Optimization with Guided Discrete Diffusion Models}
+        {}
+        {\underline{\textbf{Taeyoung Yun}}, Inhyuck Song, Woocheol Shin, Yujin Shin, Sungpil Woo, Sunhwan Lim, and Jinkyoo Park
+        \begin{itemize}[noitemsep,topsep=2pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[]{\href{https://dl.acm.org/doi/abs/10.1145/3773966.3777950}{Paper} / \href{https://github.com/dbsxodud-11/traffic_layout}{Code}}
+        \end{itemize} 
+        }
+    \vspace{-3pt}
+    \entry
+        {KDD, 2025}
+        {[C10] Wind Farm Layout Optimization with Diffusion Models}
+        {}
+        {Yujin Shin$^{*}$, \underline{\textbf{Taeyoung Yun$^{*}$}}, Sujin Yun, Sungpil Woo, Sunhwan Lim, and Jinkyoo Park
+        \begin{itemize}[noitemsep,topsep=2pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[]{\href{https://dl.acm.org/doi/10.1145/3711896.3737181}{Paper} / \href{https://github.com/dbsxodud-11/layopt}{Code}}
+        \end{itemize}
+        }
+    \vspace{-3pt}
+    \entry
+        {ICML, 2025 \\ (based on ICLRW)}
+        {[C9] Posterior Inference with Diffusion Models for High-dimensional Black-box Optimization}
+        {}
+        {\underline{\textbf{Taeyoung Yun$^{*}$}}, Kiyoung Om$^*$, Jaewoo Lee, Sujin Yun, and Jinkyoo Park
+        \begin{itemize}[noitemsep,topsep=2pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[]{\href{https://arxiv.org/abs/2502.16824}{Paper} / \href{https://github.com/umkiyoung/DiBO}{Code}}
+        \end{itemize}
+        }
+    \vspace{-3pt}
+    \entry
+        {ICML, 2025 \\(based on NIPSW)}
+        {[C8] Improved Off-Policy Reinforcement Learning in Biological Sequence Design}
+        {}
+        {Hyeonah Kim, Minsu Kim, \underline{\textbf{Taeyoung Yun}}, Sanghyeok Choi, Emmanuel Bengio, Alex Hern\'andez Garcia, and Jinkyoo Park
+        \begin{itemize}[noitemsep,topsep=2pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[]{\href{https://arxiv.org/abs/2410.04461}{Paper} / \href{https://github.com/hyeonahkimm/delta_cs}{Code}}
+        \end{itemize}
+        }
+    \vspace{-3pt}
+    \entry
+        {CVPR, 2025}
+        {[C7] Learning to Sample Effective and Diverse Prompts for Text-to-Image Generation}
+        {}
+        {\underline{\textbf{Taeyoung Yun}}, Dinghuai Zhang, Jinkyoo Park, and Ling Pan
+        \begin{itemize}[noitemsep,topsep=2pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[]{\href{https://openaccess.thecvf.com/content/CVPR2025/html/Yun_Learning_to_Sample_Effective_and_Diverse_Prompts_for_Text-to-Image_Generation_CVPR_2025_paper.html}{Paper} / \href{https://github.com/dbsxodud-11/PAG}{Code}}
+        \end{itemize}
+        }
+    \vspace{-3pt}
+    \entry
+        {ICLR, 2025}
+        {[C6] Adaptive Teachers for Amortized Samplers}
+        {}
+        {Minsu Kim$^*$, Sanghyeok Choi$^*$, \underline{\textbf{Taeyoung Yun}}, Emmanuel Bengio, Leo Feng, Jarrid Rector-Brooks, Sungsoo Ahn, Jinkyoo Park, Nikolay Malkin, and Yoshua Bengio
+        \begin{itemize}[noitemsep,topsep=2pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[]{\href{https://arxiv.org/abs/2410.01432}{Paper} / \href{https://github.com/alstn12088/adaptive-teacher}{Code}}
+        \end{itemize}
+        }
+% \end{entrylist}
+% \textbf{2024}
+% \vspace{8pt}
+% \begin{entrylist}
+    \entry
+        {NeurIPS, 2024}
+        {[C5] Guided Trajectory Generation with Diffusion Models for Offline Model‑based Optimization}
+        {}
+        {\underline{\textbf{Taeyoung Yun}}, Sujin Yun, Jaewoo Lee, and Jinkyoo Park
+        \begin{itemize}[noitemsep,topsep=2pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[]{\href{https://openreview.net/forum?id=ioKQzb8SMr}{Paper} / \href{https://github.com/dbsxodud-11/GTG}{Code}}
+        \end{itemize}
+        }
+    \vspace{-3pt}
+    \entry
+        {NeurIPS, 2024 \\(based on ICLRW)}
+        {[C4] GTA: Generative Trajetory Augmentation with Guidance for Offline Reinforcement Learning}
+        {}
+        {Jaewoo Lee$^*$, Sujin Yun$^*$, \underline{\textbf{Taeyoung Yun}}, and Jinkyoo Park
+        \begin{itemize}[noitemsep,topsep=2pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[]{\href{https://openreview.net/forum?id=kZpNDbZrzy}{Paper} /
+            \href{https://github.com/Jaewoopudding/GTA}{Code}}
+        \end{itemize}
+        }
+    \vspace{-3pt}
+    \entry
+        {KDD, 2024}
+        {[C3] An Offline Meta Black-box Optimization Framework for Adaptive Design of Urban Traffic Light Management Systems}
+        {}
+        {\underline{\textbf{Taeyoung Yun$^{*}$}},  Kanghoon Lee$^{*}$, Sujin Yun, Ilmyung Kim, Won-Woo Jung, Min-Cheol Kwon, Kyujin Choi, Yoohyeon Lee, and Jinkyoo Park
+        \begin{itemize}[noitemsep,topsep=2pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[]{\href{https://dl.acm.org/doi/abs/10.1145/3637528.3671606}{Paper} / \href{https://github.com/dbsxodud-11/offline_meta_bbo}{Code}}
+        \end{itemize}
+        }
+    \vspace{-3pt}
+    \entry
+        {ICML, 2024 \\(based on NIPSW)}
+        {[C2] Learning to Scale Logits for Temperature-conditional GFlowNets}
+        {}
+        {Minsu Kim$^{*}$, Juhwan Ko$^{*}$, \underline{\textbf{Taeyoung Yun$^{*}$}}, Dinghuai Zhang, Ling Pan, Woochang Kim, Jinkyoo Park, and Yoshua Bengio
+        \begin{itemize}[noitemsep,topsep=2pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[]{\href{https://arxiv.org/abs/2310.02823}{Paper} /
+            \href{https://github.com/dbsxodud-11/logit-gfn}{Code}}
+        \end{itemize}
+        }
+    \vspace{-3pt}
+    \entry
+        {ICLR, 2024 \\(Spotlight)}
+        {[C1] Local Search GFlowNets}
+        {}
+        {Minsu Kim, \underline{\textbf{Taeyoung Yun}}, Emmanuel Bengio, Dinghuai Zhang, Yoshua Bengio, Sungsoo Ahn, and Jinkyoo Park
+        \begin{itemize}[noitemsep,topsep=2pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[]{\href{https://arxiv.org/abs/2310.02710}{Paper} /
+            \href{https://github.com/dbsxodud-11/ls_gfn}{Code}}
+        \end{itemize}
+        }
+\end{entrylist}
+
+% \clearpage
+\textbf{Journal Publications }
+\vspace{8pt}
+\begin{entrylist}
+    \entry
+        {TMLR, 2026 \\(Survey Certification)}
+        {[J1] Offline Model-Based Optimization: Comprehensive Review}
+        {}
+        {Minsu Kim, Jiayao Gu, Ye Yuan, \underline{\textbf{Taeyoung Yun}}, Zixuan Liu, Yoshua Bengio, Can Chen
+        \begin{itemize}[noitemsep,topsep=2pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[]{\href{https://arxiv.org/abs/2503.17286v2}{Paper} /
+            \href{https://github.com/mila-iqia/Awesome-Offline-Model-Based-Optimization}{Code}}
+        \end{itemize} 
+        }
+\end{entrylist}
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+% \vspace{-5 pt}
+% \cvsect{Research Experience}
+% \begin{entrylist}
+% 	\entry
+%         {9/2022 -- 8/2023}
+% 		{Undergraduate Resercher}
+% 		{Systems Intelligence Lab, KAIST}
+% 		{\vspace{-5pt}
+%         \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=10pt]
+%             \item Supervised by Jinkyoo Park.
+%             \item Research Area: Neural combinatorial optimization and reinforcement learning
+%             \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=10pt]
+%                 \item[$+$] Developing and benchmarking learning-based combinatorial optimization solver for routing problems.
+%             \end{itemize}
+%             % \item \texttt{python}, \texttt{pytorch}, \texttt{SQL} 
+%         \end{itemize}
+%         }
+% 	\entry
+% 		{1/2022 -- 8/2022}
+% 		{Machine Learning Research Engineer (Intern)}
+% 		{MakinaRocks}
+% 		{\vspace{-5pt}
+%         \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=10pt]
+%             \item Research Area: Industrial applications of AI
+%             \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=10pt]
+%                 \item[$+$] Developing a deep dynamics model with a novel heterogeneous attention-based LSTM architecture (KR Patent 10-2573643-0000).
+%                 \item[$+$] Implementing offline model-based RL algorithms and deploying them to the real-world HVAC system in an electric vehicle.
+%                 \item[$+$] Developing an uncertainty-aware active learning system for real-world data query using Bayesian neural networks.
+%                 \item[$+$] Developing model architectures to solve a real-world PCB-routing problem with RL.
+%             \end{itemize}
+%         \end{itemize}
+%         }
+%     \entry
+%         {3/2021 -- 12/2021}
+%         {Undergraduate Researcher}
+%         {Vision \& Learning Lab, Seoul National University}
+%         {\vspace{-5pt}
+%         \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=10pt]
+%             \item Supervised by Gunhee Kim
+%             \item Research Area: Natural Language Processing
+%             \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=10pt]
+%                 \item[$+$] Developing a fact-check model by fine-tuning pre-trained BERT and Electra models.
+%             \end{itemize}
+%         \end{itemize}
+%         }
+% \end{entrylist}
+
+% % \clearpage
+% \cvsect{Industry Project}
+% \begin{entrylist}
+%     \entry
+%         {1/2024 -- Current}
+% 		{Learning-based multi-agent scheduling and path-finding}
+% 		{ETRI}
+% 		{\vspace{-5pt}
+%         \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=10pt]
+%             \item TBU
+%         \end{itemize}}
+% \end{entrylist}
+
+\vspace{5 pt}
+\cvsect{Teaching Experiences}
+\begin{entrylist}
+    \entry
+        {2026}
+        {Teaching Assistant}
+        {KAIST}
+        {\vspace{-5pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[] IE579: Game Theory and Multi-Agent Reinforcement Learning
+        \end{itemize}
+        }
+    \entry
+        {2025}
+        {Teaching Assistant}
+        {KAIST}
+        {\vspace{-5pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[] IE343: Statistical Machine Learning
+            \item[] IE437: Data-Driven Decision Making and Control
+        \end{itemize}
+        }
+    \entry
+        {2024}
+        {Teaching Assistant}
+        {KAIST}
+        {\vspace{-5pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[] IE437: Data-Driven Decision Making and Control
+            \item[] IE481: Manufacturing \& Artificial Intelligence
+        \end{itemize}
+        }
+    \entry
+        {2022}
+        {Teaching Assistant}
+        {KAIST}
+        {\vspace{-5pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[] MAS480: Introduction to Scientific Machine Learning
+        \end{itemize}
+        }
+\end{entrylist}
+
+% \clearpage
+\cvsect{Academic Services}
+\begin{entrylist}
+    % \entry
+    %     {2024}
+    %     {Reviewer}
+    %     {}
+    %     {\vspace{-5pt}
+    %     \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+    %         \item[] NIPS
+    %     \end{itemize}
+    %     }
+    \entry
+        {2026}
+        {Reviewer}
+        {}
+        {\vspace{-5pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[] AAAI, KDD, ICLR, AAMAS, AISTATS, TMLR, TPAMI, ICML, RLC, NeurIPS
+        \end{itemize}
+        }
+    \entry
+        {2025}
+        {Reviewer}
+        {}
+        {\vspace{-5pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[] ICLR, AAMAS, AISTATS, ICML, KDD, TMLR, NeurIPS
+        \end{itemize}
+        }
+\end{entrylist}
+
+\cvsect{Invited Talks}
+\begin{entrylist}
+    \entry
+        {2026}
+        {AutoML Seminar}
+        {}
+        {\vspace{-5pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt, leftmargin=0pt]
+            \item[] Posterior Inference in Generative Models for High-dimensional Black-box Optimization
+        \end{itemize}
+        }
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	Honors & Awards
+%----------------------------------------------------------------------------------------
+ % \vspace{-5 pt}
+\cvsect{Honors \& Awards}
+\begin{entrylist}
+    \entry
+        {2025}
+		{Qualcomm Innovation Fellowship Finalist}
+		{Seoul, Korea}
+        {\vspace{-5pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=0pt]
+            \item[] Paper: Learning to Sample Effective and Diverse Prompts for Text-to-Image Generation
+            % \item[] Propose GNN-based Personal Loan Service Recommendation Service
+        \end{itemize}}
+    \entry
+        {2025}
+		{Top Reviewer}
+		{NeurIPS}
+		{\vspace{-5pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=0pt]
+            \item[] Honor for Top 8\% Reviewers
+        \end{itemize}}
+    \entry
+        {2021}
+		{Dean's List}
+		{KAIST}
+		{\vspace{-5pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=0pt]
+            \item[] Honor for Top 2\% Students
+        \end{itemize}}
+    \entry
+        {2021}
+		{Excellence Award (2nd Place)}
+		{Seoul, Korea}
+		{\vspace{-5pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=0pt]
+            \item[] Big Data Competition Hosted by NH
+            % \item[] Propose GNN-based Personal Loan Service Recommendation Service
+        \end{itemize}}
+\end{entrylist}
+\end{document}
